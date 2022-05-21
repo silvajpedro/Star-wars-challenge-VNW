@@ -3,3 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* header begining */
+.backgroundHeader{
+    background-size: 101%;
+    background-repeat: no-repeat;
+    height:590px;
+    background-image:url("/assets/backgroundheader.png");
+    /* border: solid purple; */
+}
+.wordsHeader{
+    display: flex;
+    position: absolute;
+    top:52.5vh;
+    justify-content: space-around;
+    width: 99.5%;
+    height: 125px;
+    /* border:solid yellowgreen; */
+}
+.starHeader{  
+    position: absolute;
+    left:255px;
+    width: 325px;
+    height: 84.4px;
+    /* border: solid brown; */
+}
+.warHeader {
+    position: absolute;
+    left: 881.5px;
+    width: 338px;
+    height: 82px;
+    /* border: solid gold; */
+}
+.kyloRen{
+    background-image:url("/assets/darkwarrior.png");
+    background-repeat: no-repeat;
+    background-size:101%;
+    position: absolute;
+    left:133px;
+    width:70vw;
+    height:108vh;
+    /* border: solid steelblue; */
+}
+.headerInfo{
+    /* border: red solid; */
+    display: flex;
+    width: 100%;
+    height:585px;
+    align-items: flex-end;
+    justify-content:flex-end ;
+}
+.headerInfo img{
+    position: absolute;
+    right:156px;
+    width:125px;
+    height:135px;
+    bottom:30px;
+    background-color: white;
+}
+/* header second part */
