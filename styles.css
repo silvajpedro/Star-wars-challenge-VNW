@@ -11,7 +11,7 @@
     background-size: 101%;
     background-repeat: no-repeat;
     height:590px;
-    background-image:url("/assets/backgroundheader.png");
+    background-image:url("../assets/backgroundheader.png");
     /* border: solid purple; */
 }
 .wordsHeader{
@@ -38,7 +38,7 @@
     /* border: solid gold; */
 }
 .kyloRen{
-    background-image:url("/assets/darkwarrior.png");
+    background-image:url("../assets/darkwarrior.png");
     background-repeat: no-repeat;
     background-size:101%;
     position: absolute;
@@ -70,7 +70,7 @@
   border:  blue solid;
 }
 .headSecondBack{
-    background-image: url("/assets/backgroundrobot.png");
+    background-image: url("../assets/backgroundrobot.png");
     /* width: 520px; */
     width: 530px;
     height:947px;
@@ -84,7 +84,7 @@
     position: absolute;
     left: 190px;
     top:555px;
-    background-image: url("/assets/red\ stormtrooper.png");
+    background-image: url("../assets/red\ stormtrooper.png");
     background-repeat: no-repeat;
     /* width:268px;
     height:354px; */
