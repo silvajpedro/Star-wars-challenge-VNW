@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -110,19 +111,63 @@
     word-spacing: 2px;
     font-family: Open Sans;
 }
-.redStormtrooper p{
+.stormtrooperText{
     position:absolute;
     top:185px;
     left: 12px;
     color: white;
-    /* border:solid green; */
+    border:solid green;
     width:63%;
     font-size: 13.5px;
     font-weight:1;
     font-family: Open Sans;
     text-align: justify;
 }
-
+.redStormtrooper button{
+    position: absolute;
+    top: 280px;
+    left: 60px;
+    background-color:transparent;
+    color: white;
+    border:  2px solid white;
+    border-radius: 5px;
+    width: 40%;
+    height: 38px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    z-index:1;
+    box-shadow: 0px 0px 0px 0px black inset;
+    transition: ease-in-out 0.7s;
+}
+.redStormtrooper button:hover{
+    box-shadow: 140px 0px 0px 0px black inset;
+    cursor: pointer;
+    color:white;
+    font-size: 20px;
+}
+.testUpdate{
+    position: absolute;
+    top: 340px;
+    left: 170px;
+    font-size: 7px;
+    color: white;
+    font-family: Roboto Flex;
+    font-weight: 1;
+}
+.redWarrior{
+    position: absolute;
+    left:160px;
+    top: 985px;
+    border: solid;
+    background-image: url(/assets/redwarrior.png);
+    background-repeat: no-repeat;
+    background-size: 97.5%;
+    width: 620px;
+    height: 590px;
+    /* width: 846px;
+    height: 843px; */
+}
 
 
 
