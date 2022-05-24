@@ -72,14 +72,30 @@
 }
 .headStormtrooper{
     position: absolute;
-    top: 775px;
-    left: 989px;
+    /* top: 775px; */
+    left: 457px;
     /* border: solid yellow; */
     width: 280px;
     height: 200px;
     background-image: url(/assets/headstormtrooper.png);
     background-size: 100%;
     background-repeat: no-repeat;
+}
+aside{
+    position: absolute;
+    top:750px;
+    left: 500px;
+    border: solid yellow;
+    width: 55%;
+    height: 200px;
+}
+aside p{
+    position: absolute;
+    top:60px;
+    left: 15px;
+    border:solid purple;
+    width: 60%;
+    font-size: 18px;
 }
 .headSecondBack{
     background-image: url("../assets/backgroundrobot.png");
