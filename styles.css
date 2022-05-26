@@ -5,10 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border:solid darkgreen; */
 }
 /* header begining */
 .backgroundHeader{
@@ -21,7 +23,7 @@
 .wordsHeader{
     display: flex;
     position: absolute;
-    top:52.5vh;
+    top:52.3vh;
     justify-content: space-around;
     width: 99.5%;
     height: 125px;
@@ -36,7 +38,7 @@
 }
 .warHeader {
     position: absolute;
-    left: 881.5px;
+    left: 884.5px;
     width: 338px;
     height: 82px;
     /* border: solid gold; */
@@ -151,7 +153,6 @@ aside h2{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-
 }
 
 /* ajeitar as fontes e posicionamento quando chegar em casa */
@@ -193,11 +194,10 @@ aside h2{
     font-weight: 500;
     font-size: 14px;
     z-index:1;
-    box-shadow: 0px 0px 0px 0px black inset;
     transition: ease-in-out 0.7s;
 }
 .redStormtrooper button:hover{
-    box-shadow: 155px 0px 0px 0px black inset;
+    box-shadow: 155px 0  black inset;
     cursor: pointer;
     color:white;
     font-size: 20px;
@@ -244,13 +244,14 @@ nav{
     /* border: solid; */
     display: flex;
     justify-content: flex-end;
+    font-family: "Open Sans", sans-serif;
 }
 nav h2{
     font-size:46px;
     /* border: solid green; */
     width: 23.5vw;
     height:120px;
-    font-family: Roboto,R, sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 span{
  font-family: Staatliches;
@@ -263,7 +264,7 @@ nav li{
     flex-direction: row-reverse;
     font-size: 21px;
     font-family:Open Sans, sans-serif;
-    font-weight: 900;
+    font-weight: 400;
     list-style:none;
     /* border: solid yellow; */
     height:7vh;
@@ -278,14 +279,288 @@ nav li:hover{
     position: absolute;
     top: 178vh;
     left: 72vw;
-    width:auto;
     height:543.5px;
     /* border: solid; */
+}
+/* -------------------------------------- */
+/* begining responsive part header  */
+
+@media (max-width: 500px){
+    .backgroundHeader{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height:43vh;
+        background-image:url("../assets/backgroundheader.png");
+    }
+    .wordsHeader{
+        display: flex;
+        position: absolute;
+        top:23.5vh;
+        justify-content: space-around;
+        width:100%;
+        height:10vh;
+        /* border:solid yellowgreen; */
+    }
+    .starHeader{  
+        position: absolute;
+        left:15.4vw;
+        width:25.5%;
+        height: 29px;
+    }
+    .warHeader {
+        position: absolute;
+        top:0.5vh;
+        left:64.5vw;
+        width: 25.5%;
+        height: 29px;
+    }
+    .kyloRen{
+        background-image:url("../assets/darkwarrior.png");
+        background-repeat: no-repeat;
+        background-size:70.8%;
+        background-position: 8.9vw 0vh;
+        position: absolute;
+        left:0;
+        width:100%;
+        /* border: solid magenta; */
+    }
+    .headerInfo{
+        /* border: red solid; */
+        position: absolute;
+        width: 98.5%;
+        height:50vh;
+    }
+    .headerInfo img{
+        position: absolute;
+        top: 34.5vh;
+        left: 76vw;
+        width:auto;
+        height:62.9px;
+        padding:0px;
+    }
+    /* header second part */
+    .secondSectionHeader{
+      width: 100%;
+      height: 995px;
+      border:  blue solid;
+    }
+    .headSecondBack{
+        background-image: url("../assets/backgroundrobot.png");
+        /* width: 520px; */
+        width: auto;
+        height:700px;
+        /* width: 500px;
+        height:1000px; */
+        background-size:70.5%;
+        background-repeat: no-repeat;
+        border: red solid;
+    }
+    .redStormtrooper{
+        position: absolute;
+        left: 30vw;
+        top:58vh;
+        background-image: url("../assets/red\ stormtrooper.png");
+        background-repeat: no-repeat;
+        /* width:268px;
+        height:354px; */
+        width:290px;
+        height:400px;
+        background-size:109%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        border: solid;
+        
+    }
+    .redStormtrooper h2{
+        position: absolute;
+        top:55px;
+        left: 14.5vw;
+        color: white;
+        width: 50%;
+        height: 100px;
+        font-size: 32px;
+        font-weight: 500;
+        word-spacing: 2px;
+        font-family: "Open Sans", sans-serif;
+    }
+    .stormtrooperText{
+        position:absolute;
+        top:35vh;
+        left: 8vw;
+        color: white;
+        width:73%;
+        font-size: 15.5px;
+        font-weight:1;
+        font-family: Open Sans;
+        text-align: justify;
+    }
+    .redStormtrooper button{
+        position: absolute;
+        top: 280px;
+        left: 60px;
+        background-color:transparent;
+        color: white;
+        border:  2px solid white;
+        border-radius: 5px;
+        width: 40%;
+        height: 38px;
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 14px;
+        z-index:1;
+        transition: ease-in-out 0.7s;
+    }
+    .redStormtrooper button:hover{
+        box-shadow: 155px 0px 0px 0px black inset;
+        cursor: pointer;
+        color:white;
+        font-size: 20px;
+    }
+    .testUpdate{
+        position: absolute;
+        top:57vh;
+        left:14.3vw;
+        font-size: 7px;
+        color: white;
+        font-family: Roboto Flex;
+        font-weight: 1;
+    }
+    
+    aside{
+        position: absolute;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        left: 34.5vw;
+        top:160vh;
+        width: 60%;
+        height:40vh;
+        /* border: solid yellow; */
+    }
+    aside h2{
+        position: absolute;
+        left: 27.5vw;
+        top: 11vh;
+        font-family: Cabin, sans-serif;
+        font-weight:bold;
+        font-size: 20px;
+    }
+    .asideLine{
+        position: absolute;
+        top: 16.5vh;
+        left: 28vw;
+        width:15.9%;
+        border:solid 1px;
+    }
+    .headStormtrooper{
+        width: auto;
+        height:28vh;
+        /* border: solid hotpink; */
+    }
+    .figcaptionH1{
+        position: absolute;
+        top:18.3vh;
+        left:7.8vw;
+        /* border:solid purple; */
+        width: 50%;
+        font-size: 16px;
+        font-family: Roboto, sans-serif;
+        font-weight: 500;
+        text-align: right;
+    }
+    .figcaptionH2{
+        position: absolute;
+        top:28.7vh;
+        left:7.8vw;
+        /* border:solid purple; */
+        width: 50%;
+        font-size: 16px;
+        font-family: Roboto, sans-serif;
+        font-weight: 500;
+        text-align: right;
+    }
+    /* ajeitar as fontes e posicionamento quando chegar em casa */
+    .headerLine{
+        position: absolute;
+        top:1013px;
+        left:13.8vw;
+        width: 81%;
+        height: 1px;
+        border: 2px solid  grey;
+    }
+    .redWarrior{
+        position: absolute;
+        left:14.2vw;
+        top: 167.5vh;
+        /* background-color: red; */
+        height: 596.5px;
+        /* border: solid; */
+        /* width: 846px;
+        height: 843px; */
+        display: none;
+    }
+    nav{
+        position: absolute;
+        top: 180vh;
+        left: 44vw;
+        width:28vw;
+        /* border: solid aqua; */
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    .titleNav{
+        /* border: solid; */
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav h2{
+        font-size:46px;
+        /* border: solid green; */
+        width: 23.5vw;
+        height:120px;
+        font-family: Roboto sans-serif;
+    }
+    span{
+     font-family: Staatliches;
+    }
+    nav li{
+        position: relative;
+        padding-right: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        font-size: 21px;
+        font-family:Open Sans, sans-serif;
+        font-weight: 900;
+        list-style:none;
+        /* border: solid yellow; */
+        height:7vh;
+        width: 100%;
+    
+    }
+    nav li:hover{
+        background-color: rgb(248, 58, 58);
+        color: white;
+    }
+    .warriorWoman{
+        position: absolute;
+        top: 178vh;
+        left: 72vw;
+        width:auto;
+        height:543.5px;
+        /* border: solid; */
+        display: none;
+    }
 }
 
 
 
 
+/* ---------------------------------- */
+/* 
+end responsive part header */
 /* begining main */
 main{
     width: 100%;
