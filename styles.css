@@ -119,7 +119,7 @@ aside h2{
 }
 .figcaptionH2{
     position: absolute;
-    top:28.7vh;
+    top:27.8vh;
     left:7.8vw;
     /* border:solid purple; */
     width: 50%;
@@ -137,7 +137,7 @@ aside h2{
     height:1000px; */
     background-size:41%;
     background-repeat: no-repeat;
-    border: red solid;
+    /* border: red solid; */
 }
 .redStormtrooper{
     position: absolute;
@@ -341,7 +341,7 @@ nav li:hover{
     /* header second part */
     .secondSectionHeader{
       width: 100%;
-      height: 995px;
+      height: 1150px;
       border:  blue solid;
     }
     .headSecondBack{
@@ -353,23 +353,22 @@ nav li:hover{
         height:1000px; */
         background-size:70.5%;
         background-repeat: no-repeat;
-        border: red solid;
+        /* border: red solid; */
     }
     .redStormtrooper{
         position: absolute;
-        left: 30vw;
+        left: 29.2vw;
         top:58vh;
         background-image: url("../assets/red\ stormtrooper.png");
         background-repeat: no-repeat;
         /* width:268px;
         height:354px; */
-        width:290px;
+        width:295px;
         height:400px;
         background-size:109%;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        border: solid;
         
     }
     .redStormtrooper h2{
@@ -383,6 +382,7 @@ nav li:hover{
         font-weight: 500;
         word-spacing: 2px;
         font-family: "Open Sans", sans-serif;
+
     }
     .stormtrooperText{
         position:absolute;
@@ -397,17 +397,17 @@ nav li:hover{
     }
     .redStormtrooper button{
         position: absolute;
-        top: 280px;
-        left: 60px;
+        top: 59vh;
+        left: 15vw;
         background-color:transparent;
         color: white;
         border:  2px solid white;
         border-radius: 5px;
-        width: 40%;
-        height: 38px;
+        width: 48%;
+        height: 32px;
         font-family: Roboto;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 16px;
         z-index:1;
         transition: ease-in-out 0.7s;
     }
@@ -419,75 +419,79 @@ nav li:hover{
     }
     .testUpdate{
         position: absolute;
-        top:57vh;
-        left:14.3vw;
-        font-size: 7px;
+        top:75vh;
+        left:18.4vw;
+        font-size: 10px;
         color: white;
-        font-family: Roboto Flex;
-        font-weight: 1;
+        font-family: "Roboto Flex";
+        font-weight: 0;
     }
     
     aside{
         position: absolute;
         display: flex;
         flex-direction: row-reverse;
-        align-items: flex-end;
-        left: 34.5vw;
-        top:160vh;
-        width: 60%;
-        height:40vh;
+        align-items: flex-start;
+        left: 8.1vw;
+        top:142vh;
+        width: 80%;
+        height:80vh;
         /* border: solid yellow; */
     }
     aside h2{
         position: absolute;
-        left: 27.5vw;
-        top: 11vh;
-        font-family: Cabin, sans-serif;
+        text-align: right;
+        left: 47.8vw;
+        top: 37.2vh;
+        font-family: "Cabin", sans-serif;
         font-weight:bold;
-        font-size: 20px;
+        font-size: 21px;
+        width: 41%;
+        letter-spacing: 1.5px;
+        /* border: solid red; */
+    }
+    .headStormtrooper{
+        height:33.5vh;
+        width: 59.2vw;
+        /* border: solid hotpink; */
     }
     .asideLine{
         position: absolute;
-        top: 16.5vh;
-        left: 28vw;
-        width:15.9%;
-        border:solid 1px;
-    }
-    .headStormtrooper{
-        width: auto;
-        height:28vh;
-        /* border: solid hotpink; */
+        top: 43vh;
+        left: 38.2vw;
+        width:52%;
+        border:solid 2px;
     }
     .figcaptionH1{
         position: absolute;
-        top:18.3vh;
-        left:7.8vw;
+        top:45.5vh;
+        left:0;
         /* border:solid purple; */
-        width: 50%;
-        font-size: 16px;
-        font-family: Roboto, sans-serif;
+        width: 100%;
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         text-align: right;
     }
     .figcaptionH2{
         position: absolute;
-        top:28.7vh;
-        left:7.8vw;
+        top:60.1vh;
+        left:0;
         /* border:solid purple; */
-        width: 50%;
-        font-size: 16px;
-        font-family: Roboto, sans-serif;
+        width: 100%;
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         text-align: right;
     }
     /* ajeitar as fontes e posicionamento quando chegar em casa */
     .headerLine{
         position: absolute;
-        top:1013px;
-        left:13.8vw;
-        width: 81%;
+        top:225.5vh;
+        left:10vw;
+        width: 78%;
         height: 1px;
-        border: 2px solid  grey;
+        border: 3px solid  rgb(128, 123, 123);
     }
     .redWarrior{
         position: absolute;
@@ -506,7 +510,7 @@ nav li:hover{
         left: 44vw;
         width:28vw;
         /* border: solid aqua; */
-        display: flex;
+        display: none;
         flex-direction: column;
         text-align: right;
     }
@@ -514,6 +518,7 @@ nav li:hover{
         /* border: solid; */
         display: flex;
         justify-content: flex-end;
+        display: none;
     }
     nav h2{
         font-size:46px;
