@@ -295,24 +295,23 @@ nav li:hover{
     .wordsHeader{
         display: flex;
         position: absolute;
-        top:23.5vh;
+        top:23.1vh;
         justify-content: space-around;
         width:100%;
         height:10vh;
-        /* border:solid yellowgreen; */
     }
     .starHeader{  
         position: absolute;
-        left:15.4vw;
+        left:16.5vw;
         width:25.5%;
-        height: 29px;
+        height: 35px;
     }
     .warHeader {
         position: absolute;
-        top:0.5vh;
-        left:64.5vw;
+        top:0.4vh;
+        left:65.2vw;
         width: 25.5%;
-        height: 29px;
+        height: 35px;
     }
     .kyloRen{
         background-image:url("../assets/darkwarrior.png");
@@ -322,10 +321,8 @@ nav li:hover{
         position: absolute;
         left:0;
         width:100%;
-        /* border: solid magenta; */
     }
     .headerInfo{
-        /* border: red solid; */
         position: absolute;
         width: 98.5%;
         height:50vh;
@@ -338,22 +335,17 @@ nav li:hover{
         height:62.9px;
         padding:0px;
     }
-    /* header second part */
     .secondSectionHeader{
       width: 100%;
-      height: 1150px;
-      border:  blue solid;
+      height: 1153px;
+      border:none;
     }
     .headSecondBack{
         background-image: url("../assets/backgroundrobot.png");
-        /* width: 520px; */
         width: auto;
         height:700px;
-        /* width: 500px;
-        height:1000px; */
         background-size:70.5%;
         background-repeat: no-repeat;
-        /* border: red solid; */
     }
     .redStormtrooper{
         position: absolute;
@@ -361,8 +353,6 @@ nav li:hover{
         top:58vh;
         background-image: url("../assets/red\ stormtrooper.png");
         background-repeat: no-repeat;
-        /* width:268px;
-        height:354px; */
         width:295px;
         height:400px;
         background-size:109%;
@@ -436,7 +426,6 @@ nav li:hover{
         top:142vh;
         width: 80%;
         height:80vh;
-        /* border: solid yellow; */
     }
     aside h2{
         position: absolute;
@@ -448,12 +437,10 @@ nav li:hover{
         font-size: 21px;
         width: 41%;
         letter-spacing: 1.5px;
-        /* border: solid red; */
     }
     .headStormtrooper{
         height:33.5vh;
         width: 59.2vw;
-        /* border: solid hotpink; */
     }
     .asideLine{
         position: absolute;
@@ -466,7 +453,6 @@ nav li:hover{
         position: absolute;
         top:45.5vh;
         left:0;
-        /* border:solid purple; */
         width: 100%;
         font-size: 20px;
         font-family: "Roboto", sans-serif;
@@ -477,72 +463,61 @@ nav li:hover{
         position: absolute;
         top:60.1vh;
         left:0;
-        /* border:solid purple; */
         width: 100%;
         font-size: 20px;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         text-align: right;
     }
-    /* ajeitar as fontes e posicionamento quando chegar em casa */
     .headerLine{
         position: absolute;
         top:225.5vh;
-        left:10vw;
-        width: 78%;
+        left:9vw;
+        width: 80%;
         height: 1px;
         border: 3px solid  rgb(128, 123, 123);
     }
     .redWarrior{
         position: absolute;
-        left:14.2vw;
-        top: 167.5vh;
-        /* background-color: red; */
-        height: 596.5px;
-        /* border: solid; */
-        /* width: 846px;
-        height: 843px; */
-        display: none;
+        left:3vw;
+        top: 234vh;
+        height:50vh;
     }
     nav{
         position: absolute;
-        top: 180vh;
-        left: 44vw;
-        width:28vw;
-        /* border: solid aqua; */
-        display: none;
+        top: 236vh;
+        left: 33vw;
+        width:39vw;
         flex-direction: column;
         text-align: right;
     }
     .titleNav{
-        /* border: solid; */
         display: flex;
         justify-content: flex-end;
-        display: none;
     }
     nav h2{
-        font-size:46px;
+        font-size:18px;
         /* border: solid green; */
-        width: 23.5vw;
-        height:120px;
-        font-family: Roboto sans-serif;
+        width: 25vw;
+        height:47px;
+        font-family: "Roboto", sans-serif;
     }
     span{
      font-family: Staatliches;
+     letter-spacing: 1.3px;
     }
     nav li{
         position: relative;
-        padding-right: 15px;
-        display: flex;
-        align-items: center;
-        flex-direction: row-reverse;
-        font-size: 21px;
-        font-family:Open Sans, sans-serif;
-        font-weight: 900;
+        padding: 0;
+        /* display: flex;
+        align-items: center; */
+        font-size: 11.1px;
+        font-family:"Open Sans", sans-serif;
+        font-weight: 400;
         list-style:none;
-        /* border: solid yellow; */
-        height:7vh;
+        height:4.4vh;
         width: 100%;
+
     
     }
     nav li:hover{
@@ -551,12 +526,9 @@ nav li:hover{
     }
     .warriorWoman{
         position: absolute;
-        top: 178vh;
-        left: 72vw;
-        width:auto;
-        height:543.5px;
-        /* border: solid; */
-        display: none;
+        top: 234vh;
+        left: 71.5vw;
+        height:50vh;
     }
 }
 
