@@ -421,7 +421,7 @@ nav li:hover{
         width:52%;
         border:solid 2px;
     }
-    .figcaptionH1{
+    .textAside1{
         position: absolute;
         top:45.5vh;
         left:0;
@@ -431,7 +431,7 @@ nav li:hover{
         font-weight: 500;
         text-align: right;
     }
-    .figcaptionH2{
+    .textAside2{
         position: absolute;
         top:60.1vh;
         left:0;
@@ -519,7 +519,13 @@ main{
     height:200vh;
 }
 .mainFirstSection h2{
-
+    position: absolute;
+    left: 10vw;
+    top:18vh;
+    color: white;
+    font-size: 38px;
+    font-family: "Sovereign", sans-serif;
+    font-weight: 900;
 }
 .mainBoxImages{
     position: absolute;
@@ -532,21 +538,40 @@ main{
 }
 .mainImage1{
     height: 57.5vh;
-    transition: ease-in-out 1s;
 }
-.mainImage1:hover{
-    opacity: 1;
-    transform: scale(1.1);
+.imagesBorder{
+    position: absolute;
+    /* border: solid rebeccapurple; */
+    width: 50.4%;
+    height: 100%;
+    transition: ease-in-out 0.7s;
+}
+.imagesBorder:hover{
     background-color: red;
-}
+    opacity: 0.5;
+    transform: scale(106%);
+} 
+/* @keyframes boxes {
+    0%{
+        transform: scale(0%);
+    }
+    100%{
+        transform: scale(110%);
+    }
+} */
 .mainImage2{
-    height: 28vh;
-    transition: ease-in-out 0.8s;
+    height: 28.5vh;
 }
-.mainImage2:hover{
+
+/* .imagesBorder{
+    transition: ease-in-out 1s;
+    border-top:solid 4px white;
+    border-left: solid 4px white;
+} */
+/* .mainImage2:hover{
     opacity: 1;
     transform: scale(1.1);
     background-color: red;
-}
+} */
 /*-------------------------------*/
 /*  BEGINING PART OF RESPONSIVE MAIN*/
