@@ -12,13 +12,13 @@
     box-sizing: border-box;
     /* border:solid darkgreen; */
 }
+/*-------------------------------*/
 /* header begining */
 .backgroundHeader{
     background-size: 101%;
     background-repeat: no-repeat;
     height:590px;
     background-image:url("../assets/backgroundheader.png");
-    /* border: solid purple; */
 }
 .wordsHeader{
     display: flex;
@@ -27,21 +27,18 @@
     justify-content: space-around;
     width: 99.5%;
     height: 125px;
-    /* border:solid yellowgreen; */
 }
 .starHeader{  
     position: absolute;
     left:255px;
     width: 325px;
     height: 84.4px;
-    /* border: solid brown; */
 }
 .warHeader {
     position: absolute;
     left: 884.5px;
     width: 338px;
     height: 82px;
-    /* border: solid gold; */
 }
 .kyloRen{
     background-image:url("../assets/darkwarrior.png");
@@ -51,10 +48,8 @@
     left:133px;
     width:70vw;
     height:108vh;
-    /* border: solid steelblue; */
 }
 .headerInfo{
-    /* border: red solid; */
     display: flex;
     width: 100%;
     height:585px;
@@ -69,11 +64,11 @@
     bottom:30px;
     background-color: white;
 }
+/*-------------------------------*/
 /* header second part */
 .secondSectionHeader{
   width: 100%;
   height: 995px;
-  border:  blue solid;
 }
 aside{
     position: absolute;
@@ -84,13 +79,12 @@ aside{
     top:117vh;
     width: 60%;
     height:40vh;
-    /* border: solid yellow; */
 }
 aside h2{
     position: absolute;
     left: 27.5vw;
     top: 11vh;
-    font-family: Cabin, sans-serif;
+    font-family: "Cabin", sans-serif;
     font-weight:bold;
     font-size: 20px;
 }
@@ -102,42 +96,35 @@ aside h2{
     border:solid 1px;
 }
 .headStormtrooper{
-    width: auto;
     height:28vh;
-    /* border: solid hotpink; */
 }
-.figcaptionH1{
+.textAside1{
     position: absolute;
-    top:18.3vh;
+    top:19vh;
     left:7.8vw;
-    /* border:solid purple; */
     width: 50%;
-    font-size: 16px;
+    font-size: 17px;
     font-family: Roboto, sans-serif;
     font-weight: 500;
     text-align: right;
 }
-.figcaptionH2{
+.textAside2{
     position: absolute;
-    top:27.8vh;
+    top:29vh;
     left:7.8vw;
-    /* border:solid purple; */
     width: 50%;
-    font-size: 16px;
-    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     text-align: right;
 }
+/*-------------------------------*/
+/*  BEGINING SECOND PART OF HEADER*/
 .headSecondBack{
     background-image: url("../assets/backgroundrobot.png");
-    /* width: 520px; */
-    width: auto;
-    height:991px;
-    /* width: 500px;
-    height:1000px; */
-    background-size:41%;
+    height:995px;
+    background-size:41.1%;
     background-repeat: no-repeat;
-    /* border: red solid; */
 }
 .redStormtrooper{
     position: absolute;
@@ -145,8 +132,6 @@ aside h2{
     top:555px;
     background-image: url("../assets/red\ stormtrooper.png");
     background-repeat: no-repeat;
-    /* width:268px;
-    height:354px; */
     width:395px;
     height:400px;
     background-size:72%;
@@ -165,19 +150,17 @@ aside h2{
     width: 40%;
     height: 100px;
     font-size: 35px;
-    word-spacing: 2px;
-    font-family: Open Sans;
+    font-family: "Open Sans";
 }
 .stormtrooperText{
     position:absolute;
     top:33vh;
     left: 12px;
     color: white;
-    /* border:solid green; */
     width:63%;
     font-size: 13.5px;
     font-weight:1;
-    font-family: Open Sans;
+    font-family:"Open Sans";
     text-align: justify;
 }
 .redStormtrooper button{
@@ -223,38 +206,32 @@ aside h2{
     position: absolute;
     left:14.2vw;
     top: 167.5vh;
-    /* background-color: red; */
     width: auto;
     height: 596.5px;
-    /* border: solid; */
-    /* width: 846px;
-    height: 843px; */
 }
 nav{
     position: absolute;
     top: 180vh;
     left: 44vw;
     width:28vw;
-    /* border: solid aqua; */
     display: flex;
     flex-direction: column;
     text-align: right;
 }
 .titleNav{
-    /* border: solid; */
     display: flex;
     justify-content: flex-end;
     font-family: "Open Sans", sans-serif;
 }
 nav h2{
     font-size:46px;
-    /* border: solid green; */
     width: 23.5vw;
     height:120px;
     font-family: "Open Sans", sans-serif;
 }
 span{
- font-family: Staatliches;
+ font-family: "Staatliches";
+ letter-spacing: 3px;
 }
 nav li{
     position: relative;
@@ -266,7 +243,6 @@ nav li{
     font-family:Open Sans, sans-serif;
     font-weight: 400;
     list-style:none;
-    /* border: solid yellow; */
     height:7vh;
     width: 100%;
 
@@ -280,7 +256,6 @@ nav li:hover{
     top: 178vh;
     left: 72vw;
     height:543.5px;
-    /* border: solid; */
 }
 /* -------------------------------------- */
 /* begining responsive part header  */
@@ -342,7 +317,6 @@ nav li:hover{
     }
     .headSecondBack{
         background-image: url("../assets/backgroundrobot.png");
-        width: auto;
         height:700px;
         background-size:70.5%;
         background-repeat: no-repeat;
@@ -358,8 +332,7 @@ nav li:hover{
         background-size:109%;
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        
+        align-items: center;   
     }
     .redStormtrooper h2{
         position: absolute;
@@ -372,7 +345,6 @@ nav li:hover{
         font-weight: 500;
         word-spacing: 2px;
         font-family: "Open Sans", sans-serif;
-
     }
     .stormtrooperText{
         position:absolute;
@@ -382,7 +354,7 @@ nav li:hover{
         width:73%;
         font-size: 15.5px;
         font-weight:1;
-        font-family: Open Sans;
+        font-family: "Open Sans", sans-serif;
         text-align: justify;
     }
     .redStormtrooper button{
@@ -497,28 +469,23 @@ nav li:hover{
     }
     nav h2{
         font-size:18px;
-        /* border: solid green; */
         width: 25vw;
         height:47px;
         font-family: "Roboto", sans-serif;
     }
     span{
-     font-family: Staatliches;
+     font-family: "Staatliches";
      letter-spacing: 1.3px;
     }
     nav li{
         position: relative;
         padding: 0;
-        /* display: flex;
-        align-items: center; */
         font-size: 11.1px;
         font-family:"Open Sans", sans-serif;
         font-weight: 400;
         list-style:none;
         height:4.4vh;
         width: 100%;
-
-    
     }
     nav li:hover{
         background-color: rgb(248, 58, 58);
@@ -531,16 +498,55 @@ nav li:hover{
         height:50vh;
     }
 }
-
-
-
-
 /* ---------------------------------- */
-/* 
-end responsive part header */
+/* end responsive part header */
+
+/*-------------------------------*/
 /* begining main */
 main{
     width: 100%;
     height: 2345px;
     background-color: #2D2D2D;
+    display: flex;
+    border: solid red;
 }
+.mainFirstSection{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: solid;
+    width: 99.5%;
+    height:200vh;
+}
+.mainFirstSection h2{
+
+}
+.mainBoxImages{
+    position: absolute;
+    top: 35vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 59vh;
+    width: 85vw;
+}
+.mainImage1{
+    height: 57.5vh;
+    transition: ease-in-out 1s;
+}
+.mainImage1:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    background-color: red;
+}
+.mainImage2{
+    height: 28vh;
+    transition: ease-in-out 0.8s;
+}
+.mainImage2:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    background-color: red;
+}
+/*-------------------------------*/
+/*  BEGINING PART OF RESPONSIVE MAIN*/
