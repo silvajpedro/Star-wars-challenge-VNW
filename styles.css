@@ -505,18 +505,16 @@ nav li:hover{
 /* begining main */
 main{
     width: 100%;
-    height: 2345px;
+    height: 1660px;
     background-color: #2D2D2D;
     display: flex;
-    border: solid red;
 }
 .mainFirstSection{
     position: absolute;
     display: flex;
     justify-content: center;
-    border: solid;
     width: 99.5%;
-    height:200vh;
+    height:100vh;
 }
 .mainFirstSection h2{
     position: absolute;
@@ -544,23 +542,35 @@ main{
     /* border: solid rebeccapurple; */
     width: 50.4%;
     height: 100%;
-    transition: ease-in-out 0.7s;
+    opacity: 0.5;
+    transition: ease-in-out 1s;  
 }
 .imagesBorder:hover{
-    background-color: red;
+    content:'NARUTO';
+    position: absolute;
+    transform:scale(110%);
+    background-color:rgb(21, 238, 14);
     opacity: 0.5;
-    transform: scale(106%);
+    font-display:initial;
+}
+
+
+
+/* estudar hover after e before */
+/* .imagesBorder:hover{
+    animation: starBox 0.9s ease-in-out -0.2s 1 normal forwards;
+    background-color: red;
 } 
-/* @keyframes boxes {
+@keyframes starBox {
     0%{
-        transform: scale(0%);
+        transform: scale(5%);
     }
     100%{
         transform: scale(110%);
     }
 } */
 .mainImage2{
-    height: 28.5vh;
+    height: 28.8vh;
 }
 
 /* .imagesBorder{
@@ -573,5 +583,46 @@ main{
     transform: scale(1.1);
     background-color: red;
 } */
+.boxSecondMFigure{
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    top: 100vh;
+    left: 6.2vw;
+    height: 123vh;
+    width: 87.5%;
+}
+.secondMainFigure{
+    position: absolute;
+    top: 0;
+    height: 114vh;
+}
+.boxSecondMFigure figcaption{
+    position: absolute;
+    width: 55%;
+    left:40vw;
+    font-family: "Roboto";
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+.darkTrooperbox{
+    position: absolute;
+    top: 220vh;
+    left: 5vw;
+}
+.darkTrooper{
+    height: 95vh;
+}
 /*-------------------------------*/
 /*  BEGINING PART OF RESPONSIVE MAIN*/
+
+/*  END PART OF RESPONSIVE MAIN*/
+
+
+/*  BEGINING FOOTER*/
+footer{
+    width: 100%;
+    height: 100vh;
+}
