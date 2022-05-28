@@ -229,7 +229,7 @@ nav h2{
     height:120px;
     font-family: "Open Sans", sans-serif;
 }
-span{
+.titleNav span{
  font-family: "Staatliches";
  letter-spacing: 3px;
 }
@@ -473,7 +473,7 @@ nav li:hover{
         height:47px;
         font-family: "Roboto", sans-serif;
     }
-    span{
+   .titleNav span{
      font-family: "Staatliches";
      letter-spacing: 1.3px;
     }
@@ -508,6 +508,7 @@ main{
     height: 1660px;
     background-color: #2D2D2D;
     display: flex;
+    border: solid darkblue;
 }
 .mainFirstSection{
     position: absolute;
@@ -571,6 +572,21 @@ main{
 } */
 .mainImage2{
     height: 28.8vh;
+    opacity: 0.5;
+    transition: ease-in-out 1s; 
+}
+.imagesBorder2{
+    position: absolute;
+    left:42.5vw;
+    height: 29vh;
+    width:25.1%;
+    transition: ease-in-out 1s; 
+}
+.imagesBorder2:hover{
+    position: absolute;
+    transform:scale(112%);
+    background-color:rgb(21, 238, 14);
+    opacity: 0.5;
 }
 
 /* .imagesBorder{
@@ -623,6 +639,158 @@ main{
 
 /*  BEGINING FOOTER*/
 footer{
+    position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 156vh;
+    /* border: solid red; */
+}
+.footerButtons{
+    position: absolute;
+    display:flex;
+    /* flex-wrap: wrap; */
+    top: 7.5vh;
+    left: 32vw;
+    height: 36vh;
+    width:62%;
+}
+.oneBoxButton{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    transition: ease-in-out 0.1s;
+}
+.firstP{
+    font-family: "Roboto";
+    font-weight: 100;
+    text-align: center;
+    align-items: baseline;
+    font-size: 35px;
+    transition: ease-in-out 0.5s;
+}
+.oneBoxButton:hover, .firstP:hover{
+    font-size: 40px;
+    font-weight:900;
+}
+.oneBoxButton:hover{
+    font-size: 18.1px;
+    width: 40%;
+}
+.oneBoxButton button{
+    position: absolute;
+    top:11vh ;
+    width:70%;
+    height:25%;
+    font-size: 22px;
+    font-weight: 1;
+    font-family: "Open Sans";
+    color: white;
+    transition: ease-in-out 1s;
+    background-color: black;
+}
+.oneBoxButton button:hover, .lineButtonF:hover{
+    box-shadow: inset red 220px 0;
+    cursor: pointer;
+} 
+ .secondP{
+    position: absolute;
+    top: 23vh;
+    width: 55.4%;
+    font-family: "Open Sans";
+    font-weight: 300;
+    transition: ease-in-out 0.5s;
+}
+ .lineButtonF{
+    position: absolute;
+    top: 33vh;
+    background-color:black;
+    width: 25%;
+    height: 1.5%;
+    transition: ease-in-out 0.5s;
+}
+.secondP2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 23vh;
+    width: 40%;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+.footerSpan1{
+    width: 100%;
+    text-align: center;
+}
+.secondP3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 23vh;
+    width: 30%;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+.footerSpan2{
+    width: 100%;
+    padding-right: 6px;
+    text-align: center;
+}
+
+/* SECOND PART OF FOOTER */
+
+.secondFooter{
+    position: absolute;
+    top: 64vh;
+    left: 0vw;
+    width: 62.5%;
+    /* border: solid rgb(120, 2, 150); */
+    height: 105vh;
+    background-color:#FF5A56 ;
+}
+.secondFooter h2{
+    position: absolute;
+    top: 16vh;
+    left: 13vw;
+    font-size: 35px;
+    font-family: "Open Sans";
+    color: white;
+}
+.firstPFooter{
+    position: absolute;
+    top: 29vh;
+    left: 13vw;
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 100;
+    font-size: 15px;
+    width:48%;
+}
+.darthVader{
+    position: relative;
+    top: -15.5vh;
+    left: 51vw;
+    height: 115vh;
+    width:45vw;
+    /* border: solid; */
+    background-image: url(/assets/DARTHVADER.png);
+    background-size: 90.5%;
+    background-repeat: no-repeat;
+
+}
+.boxOfApps{
+    position: absolute;
+    top: 50vh;
+}
+.lineFooter{
+    position: absolute;
+    top: 20vh;
+}
+.letterStarWars{
+    position: absolute;
+    top: 30vh;
+}
+.secondPFooter{
+    position: absolute;
+    top:40vh;
 }
