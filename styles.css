@@ -508,7 +508,6 @@ main{
     height: 1660px;
     background-color: #2D2D2D;
     display: flex;
-    border: solid darkblue;
 }
 .mainFirstSection{
     position: absolute;
@@ -745,7 +744,7 @@ footer{
     left: 0vw;
     width: 62.5%;
     /* border: solid rgb(120, 2, 150); */
-    height: 105vh;
+    height: 110vh;
     background-color:#FF5A56 ;
 }
 .secondFooter h2{
@@ -754,6 +753,7 @@ footer{
     left: 13vw;
     font-size: 35px;
     font-family: "Open Sans";
+    font-weight: 900;
     color: white;
 }
 .firstPFooter{
@@ -768,29 +768,78 @@ footer{
 }
 .darthVader{
     position: relative;
-    top: -15.5vh;
-    left: 51vw;
-    height: 115vh;
+    top: -16vh;
+    left: 50.5vw;
+    height: 120vh;
     width:45vw;
     /* border: solid; */
     background-image: url(/assets/DARTHVADER.png);
-    background-size: 90.5%;
+    background-size: 95%;
     background-repeat: no-repeat;
 
 }
 .boxOfApps{
     position: absolute;
-    top: 50vh;
+    display:flex;
+    justify-content: space-around;
+    top: 44vh;
+    left:12.4vw;
+    /* border: solid; */
+    width: 52.5%;
+}
+.boxOfApps img{
+    height: 10vh;
 }
 .lineFooter{
     position: absolute;
-    top: 20vh;
+    top: 61vh;
+    left: 12.9vw;
+    color:#D74430;
+    border: 2px solid;
+    width: 51%;
+    
 }
 .letterStarWars{
     position: absolute;
-    top: 30vh;
+    left: 13vw;
+    top: 68vh;
+}
+.letterStarWars img{
+    height: 16vh;
 }
 .secondPFooter{
     position: absolute;
-    top:40vh;
+    top:89vh;
+    left: 13vw;
+    color: white;
+    width:43.5% ;
+    /* border: solid; */
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+}
+.secondPFooter2{
+    position: absolute;
+    top:95.1vh;
+    left: 13vw;
+    color: white;
+    width:43.5% ;
+    /* border: solid; */
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+}
+.vaiNaWeb{
+    position: relative;
+    top: -24vh;
+    left: 70vw;
+    width:40% ;
+    font-family: "Open Sans";
+    font-size: 12px;
+}
+.vaiNaWeb a{
+    color: black;
+    text-decoration: none;
 }
