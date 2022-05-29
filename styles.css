@@ -630,11 +630,169 @@ main{
 .darkTrooper{
     height: 95vh;
 }
+.mainFirstSection p{
+    position: absolute;
+    top: 244vh;
+    left: 42vw;
+    color: white;
+    font-family: "Sovereign", sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    
+}
 /*-------------------------------*/
 /*  BEGINING PART OF RESPONSIVE MAIN*/
+@media (max-width: 500px){
+    main{
+        width: 100%;
+        height: 1950px;
+        background-color: #2D2D2D;
+        display: flex;
+    }
+    .mainFirstSection{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 99.9%;
+        height:300vh;
+        /* border: solid darkblue; */
+    }
+    .mainFirstSection h2{
+        position: absolute;
+        top:18vh;
+        left: 0;
+        color: white;
+        font-size: 25px;
+        font-family: "Sovereign", sans-serif;
+        font-weight: 900;
+        text-align: center;
+        width: 100%;
+    }
+    .mainBoxImages{
+        position: absolute;
+        top: 35vh;
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 256.5vh;
+        width: 85vw;
+        /* border: solid red; */
+    }
+    .mainImage1{
+        height: 51vh;
+    }
+    .imagesBorder{
+        position: absolute;
+        /* border: solid rebeccapurple; */
+        width: 50.4%;
+        height: 100%;
+        opacity: 0.5;
+        transition: ease-in-out 1s;  
+    }
+    .imagesBorder:hover{
+        content:'NARUTO';
+        position: absolute;
+        transform:scale(110%);
+        background-color:rgb(21, 238, 14);
+        opacity: 0.5;
+        font-display:initial;
+    }
+    
+    
+    
+    /* estudar hover after e before */
+    /* .imagesBorder:hover{
+        animation: starBox 0.9s ease-in-out -0.2s 1 normal forwards;
+        background-color: red;
+    } 
+    @keyframes starBox {
+        0%{
+            transform: scale(5%);
+        }
+        100%{
+            transform: scale(110%);
+        }
+    } */
+    .mainImage2{
+        height: 51vh;
+        opacity: 0.5;
+        transition: ease-in-out 1s; 
+    }
+    .imagesBorder2{
+        position: absolute;
+        left:42.5vw;
+        height: 29vh;
+        width:25.1%;
+        transition: ease-in-out 1s; 
+    }
+    .imagesBorder2:hover{
+        position: absolute;
+        transform:scale(112%);
+        background-color:rgb(21, 238, 14);
+        opacity: 0.5;
+    }
+    
+    /* .imagesBorder{
+        transition: ease-in-out 1s;
+        border-top:solid 4px white;
+        border-left: solid 4px white;
+    } */
+    /* .mainImage2:hover{
+        opacity: 1;
+        transform: scale(1.1);
+        background-color: red;
+    } */
+    .boxSecondMFigure{
+        position: absolute;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        top: 296vh;
+        left: 0.1vw;
+        height: 69.7vh;
+        width: 99.9%;
+    }
+    .secondMainFigure{
+        position: absolute;
+        top: 0;
+        left:0%;
+        height: 60.5vh;
+        border: 1px solid gray;
+    }
+    .boxSecondMFigure figcaption{
+        position: absolute;
+        width: 56%;
+        left:35vw;
+        font-family: "Roboto";
+        color: white;
+        font-size: 10px;
+        font-weight: 100;
+        text-align:right;
+    }
+    .darkTrooperbox{
+        position: absolute;
+        top: 364.7vh;
+        left: -40vw;
+    }
+    .darkTrooper{
+        height: 150vh;
+    }
+    .mainFirstSection p{
+        position: absolute;
+        top: 374vh;
+        left: 55vw;
+        color: white;
+        font-family: "Sovereign", sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+        
+    }
+}
 
+/*-------------------------------*/
 /*  END PART OF RESPONSIVE MAIN*/
-
 
 /*  BEGINING FOOTER*/
 footer{
@@ -651,6 +809,7 @@ footer{
     left: 32vw;
     height: 36vh;
     width:62%;
+    /* border: solid; */
 }
 .oneBoxButton{
     display: flex;
@@ -688,7 +847,7 @@ footer{
     transition: ease-in-out 1s;
     background-color: black;
 }
-.oneBoxButton button:hover, .lineButtonF:hover{
+.oneBoxButton button:hover, .lineButtonF:hover {
     box-shadow: inset red 220px 0;
     cursor: pointer;
 } 
@@ -735,6 +894,120 @@ footer{
     padding-right: 6px;
     text-align: center;
 }
+/*-------------------------------*/
+/* FIRST PART OF FOOTER RESPONSIVE */
+@media (max-width: 500px){
+    footer{
+        position: absolute;
+        width: 100%;
+        height: 125vh;
+        top:663.5vh;
+        /* border: solid red; */
+    }
+    .footerButtons{
+        position: absolute;
+        display:flex;
+        flex-wrap: wrap;
+        top: 5.5vh;
+        left: 45vw;
+        height: 113.5vh;
+        width:50%;
+        border: solid hotpink;
+    }
+    .oneBoxButton{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transition: ease-in-out 0.1s;
+        border: solid darkblue;
+    }
+    .firstP{
+        font-family: "Roboto";
+        font-weight: 100;
+        text-align: center;
+        align-items: baseline;
+        font-size: 35px;
+        transition: ease-in-out 0.5s;
+    }
+    .oneBoxButton:hover, .firstP:hover{
+        font-size: 40px;
+        font-weight:900;
+    }
+    .oneBoxButton:hover{
+        font-size: 18.1px;
+        width: 40%;
+    }
+    .oneBoxButton button{
+        position: absolute;
+        top:9vh ;
+        width:70%;
+        height:25%;
+        font-size: 22px;
+        font-weight: 1;
+        font-family: "Open Sans";
+        color: white;
+        transition: ease-in-out 1s;
+        background-color: black;
+    }
+    .oneBoxButton button:hover, .lineButtonF:hover {
+        box-shadow: inset red 220px 0;
+        cursor: pointer;
+    } 
+     .secondP{
+        position: absolute;
+        top: 19vh;
+        width: 60%;
+        font-family: "Open Sans";
+        font-weight: 300;
+        transition: ease-in-out 0.5s;
+        /* border: solid; */
+        font-size: 16px;
+    }
+     .lineButtonF{
+        position: absolute;
+        top: 28vh;
+        border: solid;
+        width: 25%;
+        height: 1.5%;
+        transition: ease-in-out 0.5s;
+    }
+    .secondP2{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 19vh;
+        width: 60%;
+        font-family: "Open Sans";
+        font-weight: 300;
+        text-align: center;
+    }
+    .footerSpan1{
+        width: 100%;
+        text-align: center;
+    }
+    .secondP3{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 19vh;
+        width: 40%;
+        font-family: "Open Sans";
+        font-weight: 300;
+        text-align: center;
+    }
+    .footerSpan2{
+        width: 100%;
+        padding-right: 6px;
+        text-align: center;
+    }
+
+}
+/* END OF RESPONSIVE FOOTER PART OF MAIN */
+/*-------------------------------*/
+
+
 
 /* SECOND PART OF FOOTER */
 
@@ -831,6 +1104,9 @@ footer{
     font-weight: 100;
     text-align: left;
 }
+.responsiveText{
+    display: none;
+}
 .vaiNaWeb{
     position: relative;
     top: -24vh;
@@ -842,4 +1118,130 @@ footer{
 .vaiNaWeb a{
     color: black;
     text-decoration: none;
+}
+
+
+@media (max-width: 500px){
+    .secondFooter{
+        position: absolute;
+        top: 127vh;
+        left: 0vw;
+        width: 99.8%;
+        /* border: solid rgb(120, 2, 150); */
+        height: 179vh;
+        background-color:#FF5A56 ;
+    }
+    .secondFooter h2{
+        position: absolute;
+        top: 12vh;
+        left: 0vw;
+        font-size: 65px;
+        font-family: "Open Sans";
+        font-weight: 900;
+        color: white;
+        /* border: solid; */
+        text-align: center;
+        width: 100%;
+    }
+    .firstPFooter{
+        position: absolute;
+        top: 29vh;
+        left: 9.5vw;
+        color: white;
+        font-family: "Open Sans";
+        font-weight: 100;
+        font-size: 17.8px;
+        width:80%;
+       font-weight: 100;
+    }
+    .spanFooter{
+        display: flex;
+        font-size: 17.8px;
+        font-weight: 100;
+    }
+    .darthVader{
+        position: relative;
+        top: 128.5vh;
+        left:4.5vw;
+        height: 120vh;
+        width:88vw;
+        /* border: solid; */
+        background-image: url(/assets/DARTHVADER.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    
+    }
+    .boxOfApps{
+        position: absolute;
+        display:flex;
+        justify-content: space-around;
+        top: 56vh;
+        left:8.2vw;
+        /* border: solid; */
+        width: 80%;
+    }
+    .boxOfApps img{
+        height: 11vh;
+    }
+    .lineFooter{
+        position: absolute;
+        top: 71vh;
+        left: 9.4vw;
+        color:#D74430;
+        border: 3px solid;
+        width: 77.5%;
+        
+    }
+    .letterStarWars{
+        position: absolute;
+        display: flex;
+        left:0;
+        top: 81vh;
+        /* border: solid; */
+        width: 100%;
+        justify-content: center;
+    }
+    .letterStarWars img{
+        height: 18.5vh;
+    }
+    .secondPFooter{
+        display: none;
+    } 
+    .responsiveText{
+        display: block;
+        position: absolute;
+        top:103.8vh;
+        left: 9vw;
+        color: white;
+        width:79%;
+        /* border: solid palegreen; */
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: 100;
+        text-align: left;
+    }
+    .secondPFooter2{
+        display: none;
+    }
+    .vaiNaWeb{
+        position: relative;
+        top: 125vh;
+        left: 5vw;
+        width:85%;
+        height: 14vh;
+        font-family: "Open Sans";
+        font-size: 12px;
+        /* border: solid; */
+    }
+    .vaiNaWeb a{
+        color: black;
+        text-decoration: none;
+    }
+    .spanFooter{
+        display: flex;
+        font-size: 12.5px;
+    }
+    
+
+
 }
