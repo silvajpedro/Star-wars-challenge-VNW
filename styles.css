@@ -18,7 +18,7 @@
     background-size: 101%;
     background-repeat: no-repeat;
     height:590px;
-    background-image:url("../assets/backgroundheader.png");
+    background-image:url("./assets/backgroundheader.png");
 }
 .wordsHeader{
     display: flex;
@@ -533,71 +533,80 @@ main{
     flex-direction: column;
     height: 59vh;
     width: 85vw;
+    border: solid yellow;
 }
 .mainImage1{
-    height: 57.5vh;
+    background-image: url(/assets/mainImage1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border:solid turquoise;
+    height: 100vh;
 }
-.imagesBorder{
-    position: absolute;
-    /* border: solid rebeccapurple; */
-    width: 50.4%;
-    height: 100%;
-    opacity: 0.5;
-    transition: ease-in-out 1s;  
+.mainImage1:hover .box1Image1 {
+    position:absolute;
+    display:flex;
+    left:0;
+     top:0;
+    width:50%;
+    height:58vh;
+    background-color: rebeccapurple;
+    opacity: 0.7;
+    animation: box1 0.7s 0s 1  forwards;
 }
-.imagesBorder:hover{
-    content:'NARUTO';
-    position: absolute;
-    transform:scale(110%);
-    background-color:rgb(21, 238, 14);
-    opacity: 0.5;
-    font-display:initial;
-}
-
-
-
-/* estudar hover after e before */
-/* .imagesBorder:hover{
-    animation: starBox 0.9s ease-in-out -0.2s 1 normal forwards;
-    background-color: red;
-} 
-@keyframes starBox {
+@keyframes box1{
     0%{
-        transform: scale(5%);
+        transform:scale(0%);
     }
     100%{
         transform: scale(110%);
     }
+}
+.box1Image1{
+    display: none;
+}
+.box2Image1{
+    position: absolute;
+    top:2.7vh;
+    left: 2vw;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+    /* background-color: red; */
+    width: 5vw;
+    height: 10vh;
+    opacity:1;  
+}
+.box3Image1{
+    position: relative;
+    left: 35vw;
+    top:41.5vh;
+    height: 10vh;
+    width: 3vw;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}
+/* .box4Image1{
+    position: absolute;
+    top:-42vh;
+    left:-35.1vw;
+    background-color: green;
+    border: solid green;
+    width: 36vw;
+    height: 10vh;
+    font-size:10px;
+    color:yellow;
+}
+.box4Image1 p{
+    position: absolute;
+    font-size: 5px;
+    left:0;
 } */
+
 .mainImage2{
     height: 28.8vh;
     opacity: 0.5;
     transition: ease-in-out 1s; 
 }
-.imagesBorder2{
-    position: absolute;
-    left:42.5vw;
-    height: 29vh;
-    width:25.1%;
-    transition: ease-in-out 1s; 
-}
-.imagesBorder2:hover{
-    position: absolute;
-    transform:scale(112%);
-    background-color:rgb(21, 238, 14);
-    opacity: 0.5;
-}
 
-/* .imagesBorder{
-    transition: ease-in-out 1s;
-    border-top:solid 4px white;
-    border-left: solid 4px white;
-} */
-/* .mainImage2:hover{
-    opacity: 1;
-    transform: scale(1.1);
-    background-color: red;
-} */
 .boxSecondMFigure{
     position: absolute;
     display: flex;
@@ -726,11 +735,15 @@ main{
         height: 29vh;
         width:25.1%;
         transition: ease-in-out 1s; 
+
     }
     .imagesBorder2:hover{
+        content: 'Novos gráficos';
+        color: white;
         position: absolute;
         transform:scale(112%);
         background-color:rgb(21, 238, 14);
+    
         opacity: 0.5;
     }
     
@@ -750,7 +763,7 @@ main{
         flex-direction: row-reverse;
         align-items: flex-end;
         top: 296vh;
-        left: 0.1vw;
+        left: 0vw;
         height: 69.7vh;
         width: 99.9%;
     }
@@ -758,7 +771,7 @@ main{
         position: absolute;
         top: 0;
         left:0%;
-        height: 60.5vh;
+        height: 59.5vh;
         border: 1px solid gray;
     }
     .boxSecondMFigure figcaption{
@@ -912,7 +925,7 @@ footer{
         left: 45vw;
         height: 113.5vh;
         width:50%;
-        border: solid hotpink;
+        /* border: solid hotpink; */
     }
     .oneBoxButton{
         display: flex;
@@ -921,7 +934,7 @@ footer{
         align-items: center;
         width: 100%;
         transition: ease-in-out 0.1s;
-        border: solid darkblue;
+        /* border: solid darkblue; */
     }
     .firstP{
         font-family: "Roboto";
@@ -1239,7 +1252,7 @@ footer{
     }
     .spanFooter{
         display: flex;
-        font-size: 12.5px;
+        font-size: 17.5px;
     }
     
 
