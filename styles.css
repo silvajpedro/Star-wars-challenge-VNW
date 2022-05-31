@@ -6,135 +6,152 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* border:solid darkgreen; */
 }
+
 /*-------------------------------*/
 /* header begining */
-.backgroundHeader{
+.backgroundHeader {
     background-size: 101%;
     background-repeat: no-repeat;
-    height:590px;
-    background-image:url("../assets/backgroundheader.png");
+    height: 590px;
+    background-image: url("../assets/backgroundheader.png");
 }
-.wordsHeader{
+
+.wordsHeader {
     display: flex;
     position: absolute;
-    top:52.3vh;
+    top: 52.3vh;
     justify-content: space-around;
     width: 99.5%;
     height: 125px;
 }
-.starHeader{  
+
+.starHeader {
     position: absolute;
-    left:255px;
+    left: 255px;
     width: 325px;
     height: 84.4px;
 }
+
 .warHeader {
     position: absolute;
     left: 884.5px;
     width: 338px;
     height: 82px;
 }
-.kyloRen{
-    background-image:url("../assets/darkwarrior.png");
+
+.kyloRen {
+    background-image: url("../assets/darkwarrior.png");
     background-repeat: no-repeat;
-    background-size:101%;
+    background-size: 101%;
     position: absolute;
-    left:133px;
-    width:70vw;
-    height:108vh;
+    left: 133px;
+    width: 70vw;
+    height: 108vh;
 }
-.headerInfo{
+
+.headerInfo {
     display: flex;
     width: 100%;
-    height:585px;
+    height: 585px;
     align-items: flex-end;
-    justify-content:flex-end ;
+    justify-content: flex-end;
 }
-.headerInfo img{
+
+.headerInfo img {
     position: absolute;
-    right:156px;
-    width:125px;
-    height:135px;
-    bottom:30px;
+    right: 156px;
+    width: 125px;
+    height: 135px;
+    bottom: 30px;
     background-color: white;
 }
+
 /*-------------------------------*/
 /* header second part */
-.secondSectionHeader{
-  width: 100%;
-  height: 995px;
+.secondSectionHeader {
+    width: 100%;
+    height: 995px;
 }
-aside{
+
+aside {
     position: absolute;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
     left: 34.5vw;
-    top:117vh;
+    top: 117vh;
     width: 60%;
-    height:40vh;
+    height: 40vh;
 }
-aside h2{
+
+aside h2 {
     position: absolute;
     left: 27.5vw;
     top: 11vh;
     font-family: "Cabin", sans-serif;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 20px;
 }
-.asideLine{
+
+.asideLine {
     position: absolute;
     top: 16.5vh;
     left: 28vw;
-    width:15.9%;
-    border:solid 1px;
+    width: 15.9%;
+    border: solid 1px;
 }
-.headStormtrooper{
-    height:28vh;
+
+.headStormtrooper {
+    height: 28vh;
 }
-.textAside1{
+
+.textAside1 {
     position: absolute;
-    top:19vh;
-    left:7.8vw;
+    top: 19vh;
+    left: 7.8vw;
     width: 50%;
     font-size: 17px;
     font-family: Roboto, sans-serif;
     font-weight: 500;
     text-align: right;
 }
-.textAside2{
+
+.textAside2 {
     position: absolute;
-    top:29vh;
-    left:7.8vw;
+    top: 29vh;
+    left: 7.8vw;
     width: 50%;
     font-size: 17px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     text-align: right;
 }
+
 /*-------------------------------*/
 /*  BEGINING SECOND PART OF HEADER*/
-.headSecondBack{
+.headSecondBack {
     background-image: url("../assets/backgroundrobot.png");
-    height:995px;
-    background-size:41.1%;
+    height: 995px;
+    background-size: 41.1%;
     background-repeat: no-repeat;
 }
-.redStormtrooper{
+
+.redStormtrooper {
     position: absolute;
     left: 14vw;
-    top:555px;
+    top: 555px;
     background-image: url("../assets/red\ stormtrooper.png");
     background-repeat: no-repeat;
-    width:395px;
-    height:400px;
-    background-size:72%;
+    width: 395px;
+    height: 400px;
+    background-size: 72%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -142,9 +159,9 @@ aside h2{
 
 /* ajeitar as fontes e posicionamento quando chegar em casa */
 
-.redStormtrooper h2{
+.redStormtrooper h2 {
     position: absolute;
-    top:55px;
+    top: 55px;
     left: 70px;
     color: white;
     width: 40%;
@@ -152,191 +169,215 @@ aside h2{
     font-size: 35px;
     font-family: "Open Sans";
 }
-.stormtrooperText{
-    position:absolute;
-    top:33vh;
+
+.stormtrooperText {
+    position: absolute;
+    top: 33vh;
     left: 12px;
     color: white;
-    width:63%;
+    width: 63%;
     font-size: 13.5px;
-    font-weight:1;
-    font-family:"Open Sans";
+    font-weight: 1;
+    font-family: "Open Sans";
     text-align: justify;
 }
-.redStormtrooper button{
+
+.redStormtrooper button {
     position: absolute;
     top: 280px;
     left: 60px;
-    background-color:transparent;
+    background-color: transparent;
     color: white;
-    border:  2px solid white;
+    border: 2px solid white;
     border-radius: 5px;
     width: 40%;
     height: 38px;
     font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
-    z-index:1;
+    z-index: 1;
     transition: ease-in-out 0.7s;
 }
-.redStormtrooper button:hover{
-    box-shadow: 155px 0  black inset;
+
+.redStormtrooper button:hover {
+    box-shadow: 155px 0 black inset;
     cursor: pointer;
-    color:white;
+    color: white;
     font-size: 20px;
 }
-.testUpdate{
+
+.testUpdate {
     position: absolute;
-    top:57vh;
-    left:14.3vw;
+    top: 57vh;
+    left: 14.3vw;
     font-size: 7px;
     color: white;
     font-family: "Roboto Flex";
     font-weight: 1;
 }
-.headerLine{
+
+.headerLine {
     position: absolute;
-    top:1013px;
-    left:13.8vw;
+    top: 1013px;
+    left: 13.8vw;
     width: 81%;
     height: 1px;
-    border: 2px solid  grey;
+    border: 2px solid grey;
 }
-.redWarrior{
+
+.redWarrior {
     position: absolute;
-    left:14.2vw;
+    left: 14.2vw;
     top: 167.5vh;
     width: auto;
     height: 596.5px;
 }
-nav{
+
+nav {
     position: absolute;
     top: 180vh;
     left: 44vw;
-    width:28vw;
+    width: 28vw;
     display: flex;
     flex-direction: column;
     text-align: right;
 }
-.titleNav{
+
+.titleNav {
     display: flex;
     justify-content: flex-end;
     font-family: "Open Sans", sans-serif;
 }
-nav h2{
-    font-size:46px;
+
+nav h2 {
+    font-size: 46px;
     width: 23.5vw;
-    height:120px;
+    height: 120px;
     font-family: "Open Sans", sans-serif;
 }
-.titleNav span{
- font-family: "Staatliches";
- letter-spacing: 3px;
+
+.titleNav span {
+    font-family: "Staatliches";
+    letter-spacing: 3px;
 }
-nav li{
+
+nav li {
     position: relative;
     padding-right: 15px;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
     font-size: 21px;
-    font-family:Open Sans, sans-serif;
+    font-family: Open Sans, sans-serif;
     font-weight: 400;
-    list-style:none;
-    height:7vh;
+    list-style: none;
+    height: 7vh;
     width: 100%;
 
 }
-nav li:hover{
+
+nav li:hover {
     background-color: rgb(248, 58, 58);
     color: white;
 }
-.warriorWoman{
+
+.warriorWoman {
     position: absolute;
     top: 178vh;
     left: 72vw;
-    height:543.5px;
+    height: 543.5px;
 }
+
 /* -------------------------------------- */
 /* begining responsive part header  */
 
-@media (max-width: 500px){
-    .backgroundHeader{
+@media (max-width: 500px) {
+    .backgroundHeader {
         background-size: 100%;
         background-repeat: no-repeat;
-        height:43vh;
-        background-image:url("../assets/backgroundheader.png");
+        height: 43vh;
+        background-image: url("../assets/backgroundheader.png");
     }
-    .wordsHeader{
+
+    .wordsHeader {
         display: flex;
         position: absolute;
-        top:23.1vh;
+        top: 23.1vh;
         justify-content: space-around;
-        width:100%;
-        height:10vh;
+        width: 100%;
+        height: 10vh;
     }
-    .starHeader{  
+
+    .starHeader {
         position: absolute;
-        left:16.5vw;
-        width:25.5%;
-        height: 35px;
-    }
-    .warHeader {
-        position: absolute;
-        top:0.4vh;
-        left:65.2vw;
+        left: 16.5vw;
         width: 25.5%;
         height: 35px;
     }
-    .kyloRen{
-        background-image:url("../assets/darkwarrior.png");
+
+    .warHeader {
+        position: absolute;
+        top: 0.4vh;
+        left: 65.2vw;
+        width: 25.5%;
+        height: 35px;
+    }
+
+    .kyloRen {
+        background-image: url("../assets/darkwarrior.png");
         background-repeat: no-repeat;
-        background-size:70.8%;
+        background-size: 70.8%;
         background-position: 8.9vw 0vh;
         position: absolute;
-        left:0;
-        width:100%;
+        left: 0;
+        width: 100%;
     }
-    .headerInfo{
+
+    .headerInfo {
         position: absolute;
         width: 98.5%;
-        height:50vh;
+        height: 50vh;
     }
-    .headerInfo img{
+
+    .headerInfo img {
         position: absolute;
         top: 34.5vh;
         left: 76vw;
-        width:auto;
-        height:62.9px;
-        padding:0px;
+        width: auto;
+        height: 62.9px;
+        padding: 0px;
     }
-    .secondSectionHeader{
-      width: 100%;
-      height: 1153px;
-      border:none;
+
+    .secondSectionHeader {
+        width: 100%;
+        height: 1153px;
+        border: none;
     }
-    .headSecondBack{
+
+    .headSecondBack {
         background-image: url("../assets/backgroundrobot.png");
-        height:700px;
-        background-size:70.5%;
+        height: 700px;
+        background-size: 70.5%;
         background-repeat: no-repeat;
     }
-    .redStormtrooper{
+
+    .redStormtrooper {
         position: absolute;
         left: 29.2vw;
-        top:58vh;
+        top: 58vh;
         background-image: url("../assets/red\ stormtrooper.png");
         background-repeat: no-repeat;
-        width:295px;
-        height:400px;
-        background-size:109%;
+        width: 295px;
+        height: 400px;
+        background-size: 109%;
         display: flex;
         flex-wrap: wrap;
-        align-items: center;   
+        align-items: center;
     }
-    .redStormtrooper h2{
+
+    .redStormtrooper h2 {
         position: absolute;
-        top:55px;
+        top: 55px;
         left: 14.5vw;
         color: white;
         width: 50%;
@@ -346,186 +387,208 @@ nav li:hover{
         word-spacing: 2px;
         font-family: "Open Sans", sans-serif;
     }
-    .stormtrooperText{
-        position:absolute;
-        top:35vh;
+
+    .stormtrooperText {
+        position: absolute;
+        top: 35vh;
         left: 8vw;
         color: white;
-        width:73%;
+        width: 73%;
         font-size: 15.5px;
-        font-weight:1;
+        font-weight: 1;
         font-family: "Open Sans", sans-serif;
         text-align: justify;
     }
-    .redStormtrooper button{
+
+    .redStormtrooper button {
         position: absolute;
         top: 59vh;
         left: 15vw;
-        background-color:transparent;
+        background-color: transparent;
         color: white;
-        border:  2px solid white;
+        border: 2px solid white;
         border-radius: 5px;
         width: 48%;
         height: 32px;
         font-family: Roboto;
         font-weight: 500;
         font-size: 16px;
-        z-index:1;
+        z-index: 1;
         transition: ease-in-out 0.7s;
     }
-    .redStormtrooper button:hover{
+
+    .redStormtrooper button:hover {
         box-shadow: 155px 0px 0px 0px black inset;
         cursor: pointer;
-        color:white;
+        color: white;
         font-size: 20px;
     }
-    .testUpdate{
+
+    .testUpdate {
         position: absolute;
-        top:75vh;
-        left:18.4vw;
+        top: 75vh;
+        left: 18.4vw;
         font-size: 10px;
         color: white;
         font-family: "Roboto Flex";
         font-weight: 0;
     }
-    
-    aside{
+
+    aside {
         position: absolute;
         display: flex;
         flex-direction: row-reverse;
         align-items: flex-start;
         left: 8.1vw;
-        top:142vh;
+        top: 142vh;
         width: 80%;
-        height:80vh;
+        height: 80vh;
     }
-    aside h2{
+
+    aside h2 {
         position: absolute;
         text-align: right;
         left: 47.8vw;
         top: 37.2vh;
         font-family: "Cabin", sans-serif;
-        font-weight:bold;
+        font-weight: bold;
         font-size: 21px;
         width: 41%;
         letter-spacing: 1.5px;
     }
-    .headStormtrooper{
-        height:33.5vh;
+
+    .headStormtrooper {
+        height: 33.5vh;
         width: 59.2vw;
     }
-    .asideLine{
+
+    .asideLine {
         position: absolute;
         top: 43vh;
         left: 38.2vw;
-        width:52%;
-        border:solid 2px;
+        width: 52%;
+        border: solid 2px;
     }
-    .textAside1{
+
+    .textAside1 {
         position: absolute;
-        top:45.5vh;
-        left:0;
+        top: 45.5vh;
+        left: 0;
         width: 100%;
         font-size: 20px;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         text-align: right;
     }
-    .textAside2{
+
+    .textAside2 {
         position: absolute;
-        top:60.1vh;
-        left:0;
+        top: 60.1vh;
+        left: 0;
         width: 100%;
         font-size: 20px;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         text-align: right;
     }
-    .headerLine{
+
+    .headerLine {
         position: absolute;
-        top:225.5vh;
-        left:9vw;
+        top: 225.5vh;
+        left: 9vw;
         width: 80%;
         height: 1px;
-        border: 3px solid  rgb(128, 123, 123);
+        border: 3px solid rgb(128, 123, 123);
     }
-    .redWarrior{
+
+    .redWarrior {
         position: absolute;
-        left:3vw;
+        left: 3vw;
         top: 234vh;
-        height:50vh;
+        height: 50vh;
     }
-    nav{
+
+    nav {
         position: absolute;
         top: 236vh;
         left: 33vw;
-        width:39vw;
+        width: 39vw;
         flex-direction: column;
         text-align: right;
     }
-    .titleNav{
+
+    .titleNav {
         display: flex;
         justify-content: flex-end;
     }
-    nav h2{
-        font-size:18px;
+
+    nav h2 {
+        font-size: 18px;
         width: 25vw;
-        height:47px;
+        height: 47px;
         font-family: "Roboto", sans-serif;
     }
-   .titleNav span{
-     font-family: "Staatliches";
-     letter-spacing: 1.3px;
+
+    .titleNav span {
+        font-family: "Staatliches";
+        letter-spacing: 1.3px;
     }
-    nav li{
+
+    nav li {
         position: relative;
         padding: 0;
         font-size: 11.1px;
-        font-family:"Open Sans", sans-serif;
+        font-family: "Open Sans", sans-serif;
         font-weight: 400;
-        list-style:none;
-        height:4.4vh;
+        list-style: none;
+        height: 4.4vh;
         width: 100%;
     }
-    nav li:hover{
+
+    nav li:hover {
         background-color: rgb(248, 58, 58);
         color: white;
     }
-    .warriorWoman{
+
+    .warriorWoman {
         position: absolute;
         top: 234vh;
         left: 71.5vw;
-        height:50vh;
+        height: 50vh;
     }
 }
+
 /* ---------------------------------- */
 /* end responsive part header */
 
 /*-------------------------------*/
 /* begining main */
-main{
+main {
     width: 100%;
     height: 1660px;
     background-color: #2D2D2D;
     display: flex;
 }
-.mainFirstSection{
+
+.mainFirstSection {
     position: absolute;
     display: flex;
     justify-content: center;
     width: 99.5%;
-    height:100vh;
+    height: 100vh;
 }
-.mainFirstSection h2{
+
+.mainFirstSection h2 {
     position: absolute;
     left: 10vw;
-    top:18vh;
+    top: 18vh;
     color: white;
     font-size: 38px;
     font-family: "Sovereign", sans-serif;
     font-weight: 900;
 }
-.mainBoxImages{
+
+.mainBoxImages {
     position: absolute;
     top: 35vh;
     display: flex;
@@ -535,51 +598,58 @@ main{
     width: 85vw;
 
 }
-.mainImage1{
+
+.mainImage1 {
     background-image: url(/assets/mainImage1.png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 56.2vh;
     width: 43vw;
 }
+
 .mainImage1:hover .box1Image1 {
-    position:absolute;
-    display:flex;
-    left:0;
-     top:0;
-    width:50%;
-    height:58vh;
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 58vh;
     background-color: rgb(116, 23, 209);
     opacity: 0.7;
     transition: ease-in-out 1s;
-    transform:scale(110%);
+    transform: scale(110%);
 }
-.box1Image1{
+
+.box1Image1 {
     position: absolute;
     width: 41vw;
-    height:57vh;
+    height: 57vh;
     background-color: rgb(116, 23, 209);
     transition: ease-in-out 1s;
     transform: scale(0.1%);
 }
-.box1Image1 h2{
+
+.box1Image1 h2 {
     position: absolute;
     top: 8vh;
     left: 6vw;
     width: 11.5vw;
     font-size: 28px;
 }
-.box1Image1P{
+
+.box1Image1P {
     position: absolute;
     top: 25vh;
     left: 6vw;
     width: 20vw;
+    /* border: solid; */
     color: white;
     font-size: 25px;
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
 }
-.box1Image1 button{
+
+.box1Image1 button {
     position: absolute;
     top: 45vh;
     left: 6.1vw;
@@ -591,76 +661,83 @@ main{
     border: solid 2px white;
     transition: ease-in-out 0.8s;
 }
-.box1Image1 button:hover{
+
+.box1Image1 button:hover {
     box-shadow: inset 140px 0 rgb(57, 10, 78);
     opacity: 1;
     transform: scale(110%);
     background-color: none;
 }
-.box2Image1{
+
+.box2Image1 {
     position: absolute;
-    top:2.7vh;
+    top: 2.7vh;
     left: 2vw;
     border-left: 5px solid white;
     border-top: 5px solid white;
     width: 5vw;
     height: 11vh;
-    opacity:1;  
+    opacity: 1;
 }
-.box3Image1{
+
+.box3Image1 {
     position: relative;
     left: 36vw;
-    top:42.8vh;
+    top: 42.8vh;
     height: 11vh;
     width: 5vw;
     border-bottom: 5px solid white;
     border-right: 5px solid white;
 }
 
-.mainImage2{
+.mainImage2 {
     position: absolute;
-    top:0vh;
-    left:43vw;
+    top: 0vh;
+    left: 43vw;
     width: 20.8vw;
     height: 28.5vh;
-    font-size:10px;
+    font-size: 10px;
     background-image: url("/assets/mainImage2.png");
     background-size: 100%;
     background-repeat: no-repeat;
     /* border: solid; */
 }
+
 .mainImage2:hover .box1Image2 {
-    position:absolute;
-    display:flex;
-    left:0.04vw;
-     top:-1vh;
-    width:100%;
-    height:30vh;
+    position: absolute;
+    display: flex;
+    left: 0.04vw;
+    top: -1vh;
+    width: 100%;
+    height: 30vh;
     background-color: red;
     opacity: 0.5;
     transition: ease-in-out 1s;
-    transform:scale(110%);
+    transform: scale(110%);
     z-index: 10;
 }
-.box1Image2{
+
+.box1Image2 {
     position: absolute;
     left: 4.5vw;
     top: 8.5vh;
     width: 10vw;
-    height:10vh;
+    height: 10vh;
     background-color: red;
     opacity: 0.5;
     transition: ease-in-out 1s;
     transform: scale(0%);
 }
-.box1Image2 h2{
+
+.box1Image2 h2 {
     position: absolute;
     top: 5vh;
     left: 2.2vw;
     width: 10vw;
     font-size: 15px;
 }
-.box1Image2P{
+
+.box1Image2P {
     position: absolute;
     top: 14vh;
     left: 2.3vw;
@@ -670,7 +747,8 @@ main{
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
 }
-.box1Image2 button{
+
+.box1Image2 button {
     position: absolute;
     top: 20vh;
     left: 2.1vw;
@@ -683,69 +761,76 @@ main{
     transform: scale(100%);
     transition: ease-in-out 0.5s;
 }
-.box1Image2 button:hover{
+
+.box1Image2 button:hover {
     transition: ease-in-out 0.5s;
     box-shadow: inset 140px 0 darkred;
     opacity: 1;
     transform: scale(110%);
     background-color: none;
 }
-.box2Image2{
+
+.box2Image2 {
     position: absolute;
-    top:2.2vh;
+    top: 2.2vh;
     left: 0.9vw;
     border-left: 5px solid white;
     border-top: 5px solid white;
     width: 3.5vw;
     height: 7.5vh;
-    opacity:1;  
+    opacity: 1;
 }
-.box3Image2{
+
+.box3Image2 {
     position: relative;
     left: 16.3vw;
-    top:20.4vh;
+    top: 20.4vh;
     height: 7.5vh;
     width: 3.5vw;
     border-bottom: 5px solid white;
     border-right: 5px solid white;
 }
-.mainImage3{
+
+.mainImage3 {
     position: absolute;
-    top:0vh;
-    left:63.8vw;
+    top: 0vh;
+    left: 63.8vw;
     width: 20.8vw;
     height: 28.5vh;
-    font-size:10px;
+    font-size: 10px;
     background-image: url("/assets/mainImage3.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
 .mainImage3:hover .box1Image3 {
-    position:absolute;
-    display:flex;
-    left:0;
-     top:-1vh;
-    width:100%;
-    height:30vh;
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: -1vh;
+    width: 100%;
+    height: 30vh;
     background-color: rgb(93, 228, 15);
     opacity: 0.8;
     transition: ease-in-out 1s;
-    transform:scale(110%);
+    transform: scale(110%);
     z-index: 10;
 }
-.box1Image3{
+
+.box1Image3 {
     position: absolute;
     left: 4.5vw;
     top: 8.5vh;
     width: 10vw;
-    height:10vh;
+    height: 10vh;
     background-color: rgb(93, 228, 15);
     opacity: 0.8;
     transition: ease-in-out 1s;
     transform: scale(0%);
     z-index: 5;
 }
-.box1Image3 h2{
+
+.box1Image3 h2 {
     position: absolute;
     top: 4.5vh;
     left: 2.5vw;
@@ -754,7 +839,8 @@ main{
     color: white;
     z-index: 10;
 }
-.box1Image3P{
+
+.box1Image3P {
     position: absolute;
     top: 11.5vh;
     left: 2.5vw;
@@ -765,7 +851,8 @@ main{
     font-weight: 100;
     z-index: 10;
 }
-.box1Image3 button{
+
+.box1Image3 button {
     position: absolute;
     top: 20.8vh;
     left: 2.7vw;
@@ -778,67 +865,74 @@ main{
     transform: scale(100%);
     transition: ease-in-out 0.5s;
 }
-.box1Image3 button:hover{
+
+.box1Image3 button:hover {
     transition: ease-in-out 0.5s;
     box-shadow: inset 140px 0 darkgreen;
     opacity: 1;
     transform: scale(110%);
     background-color: none;
 }
-.box2Image3{
+
+.box2Image3 {
     position: absolute;
-    top:2.2vh;
+    top: 2.2vh;
     left: 0.9vw;
     border-left: 5px solid white;
     border-top: 5px solid white;
     width: 3.5vw;
     height: 7.5vh;
-    opacity:1;  
+    opacity: 1;
 }
-.box3Image3{
+
+.box3Image3 {
     position: relative;
     left: 16.3vw;
-    top:20.4vh;
+    top: 20.4vh;
     height: 7.5vh;
     width: 3.5vw;
     border-bottom: 5px solid white;
     border-right: 5px solid white;
 }
-.mainImage4{
+
+.mainImage4 {
     position: absolute;
-    top:28vh;
-    left:43vw;
+    top: 28vh;
+    left: 43vw;
     width: 20.8vw;
     height: 28.5vh;
     background-image: url("/assets/mainImage5.png");
     background-size: 100%;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
+
 .mainImage4:hover .box1Image4 {
-    position:absolute;
-    display:flex;
-    left:0;
-     top:-1vh;
-    width:100%;
-    height:30vh;
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: -1vh;
+    width: 100%;
+    height: 30vh;
     background-color: rgb(243, 170, 60);
     opacity: 0.8;
     transition: ease-in-out 1s;
-    transform:scale(110%);
+    transform: scale(110%);
     z-index: 10;
 }
-.box1Image4{
+
+.box1Image4 {
     position: absolute;
     left: 4.5vw;
     top: 8.5vh;
     width: 10vw;
-    height:10vh;
+    height: 10vh;
     background-color: rgb(243, 170, 60);
     opacity: 0.8;
     transition: ease-in-out 1s;
     transform: scale(0%);
 }
-.box1Image4 h2{
+
+.box1Image4 h2 {
     position: absolute;
     top: 4.3vh;
     left: 2.5vw;
@@ -848,7 +942,8 @@ main{
     z-index: 10;
     opacity: 1;
 }
-.box1Image4P{
+
+.box1Image4P {
     position: absolute;
     top: 11.7vh;
     left: 2.5vw;
@@ -860,7 +955,8 @@ main{
     z-index: 10;
     opacity: 1;
 }
-.box1Image4 button{
+
+.box1Image4 button {
     position: absolute;
     top: 20.5vh;
     left: 2.7vw;
@@ -873,69 +969,75 @@ main{
     transform: scale(100%);
     transition: ease-in-out 0.5s;
 }
-.box1Image4 button:hover{
+
+.box1Image4 button:hover {
     transition: ease-in-out 0.5s;
     box-shadow: inset 140px 0 rgb(219, 135, 9);
     opacity: 1;
     transform: scale(110%);
     background-color: none;
 }
-.box2Image4{
+
+.box2Image4 {
     position: absolute;
-    top:2.2vh;
+    top: 2.2vh;
     left: 0.9vw;
     border-left: 5px solid white;
     border-top: 5px solid white;
     width: 3.5vw;
     height: 7.5vh;
-    opacity:1;  
+    opacity: 1;
 }
-.box3Image4{
+
+.box3Image4 {
     position: relative;
     left: 16.3vw;
-    top:20.4vh;
+    top: 20.4vh;
     height: 7.5vh;
     width: 3.5vw;
     border-bottom: 5px solid white;
     border-right: 5px solid white;
 }
-.mainImage5{
+
+.mainImage5 {
     position: absolute;
-    top:28vh;
-    left:63.8vw;
+    top: 28vh;
+    left: 63.8vw;
     width: 20.8vw;
     height: 28.5vh;
-    font-size:10px;
+    font-size: 10px;
     background-image: url("/assets/mainImage4.png");
     background-size: 100%;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
+
 .mainImage5:hover .box1Image5 {
-    position:absolute;
-    display:flex;
-    left:0;
-     top:0;
-    width:100%;
-    height:30vh;
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 30vh;
     background-color: rgb(6, 30, 248);
     opacity: 0.8;
     transition: ease-in-out 1s;
-    transform:scale(110%);
+    transform: scale(110%);
     z-index: 10;
 }
-.box1Image5{
+
+.box1Image5 {
     position: absolute;
     left: 4.5vw;
     top: 8.5vh;
     width: 10vw;
-    height:10vh;
+    height: 10vh;
     background-color: rgb(6, 30, 248);
     transition: ease-in-out 1s;
     transform: scale(0%);
     opacity: 0.8;
 }
 
-.box1Image5 h2{
+.box1Image5 h2 {
     position: absolute;
     top: 4vh;
     left: 2.5vw;
@@ -945,7 +1047,8 @@ main{
     z-index: 10;
     opacity: 1;
 }
-.box1Image5P{
+
+.box1Image5P {
     position: absolute;
     top: 11.5vh;
     left: 2.5vw;
@@ -957,26 +1060,29 @@ main{
     z-index: 10;
     opacity: 1;
 }
-.box2Image5{
+
+.box2Image5 {
     position: absolute;
-    top:1.5vh;
+    top: 1.5vh;
     left: 1vw;
     border-left: 5px solid white;
     border-top: 5px solid white;
     width: 3.5vw;
     height: 7.5vh;
-    opacity:1;  
+    opacity: 1;
 }
-.box3Image5{
+
+.box3Image5 {
     position: relative;
     left: 16.2vw;
-    top:19.4vh;
+    top: 19.4vh;
     height: 7.5vh;
     width: 3.5vw;
     border-bottom: 5px solid white;
     border-right: 5px solid white;
 }
-.box1Image5 button{
+
+.box1Image5 button {
     position: absolute;
     top: 18.5vh;
     left: 2.6vw;
@@ -989,7 +1095,8 @@ main{
     transform: scale(100%);
     transition: ease-in-out 0.5s;
 }
-.box1Image5 button:hover{
+
+.box1Image5 button:hover {
     transition: ease-in-out 0.5s;
     box-shadow: inset 140px 0 rgb(6, 180, 248);
     opacity: 1;
@@ -1000,8 +1107,7 @@ main{
 /* --------------------------------- */
 /* end of main animation part */
 
-
-.boxSecondMFigure{
+.boxSecondMFigure {
     position: absolute;
     display: flex;
     flex-direction: row-reverse;
@@ -1011,29 +1117,34 @@ main{
     height: 123vh;
     width: 87.5%;
 }
-.secondMainFigure{
+
+.secondMainFigure {
     position: absolute;
     top: 0;
     height: 114vh;
 }
-.boxSecondMFigure figcaption{
+
+.boxSecondMFigure figcaption {
     position: absolute;
     width: 55%;
-    left:40vw;
+    left: 40vw;
     font-family: "Roboto";
     color: white;
     font-size: 15px;
     font-weight: 100;
 }
-.darkTrooperbox{
+
+.darkTrooperbox {
     position: absolute;
     top: 220vh;
     left: 5vw;
 }
-.darkTrooper{
+
+.darkTrooper {
     height: 95vh;
 }
-.lastSectionP{
+
+.lastSectionP {
     position: absolute;
     top: 244vh;
     left: 42vw;
@@ -1041,28 +1152,31 @@ main{
     font-family: "Sovereign", sans-serif;
     font-weight: 900;
     font-size: 35px;
-    
+
 }
+
 /*-------------------------------*/
 /*  BEGINING PART OF RESPONSIVE MAIN*/
-@media (max-width: 500px){
-    main{
+@media (max-width: 500px) {
+    main {
         width: 100%;
         height: 1950px;
         background-color: #2D2D2D;
         display: flex;
     }
-    .mainFirstSection{
+
+    .mainFirstSection {
         position: absolute;
         display: flex;
         justify-content: center;
         width: 99.9%;
-        height:300vh;
+        height: 300vh;
         /* border: solid darkblue; */
     }
-    .mainFirstSection h2{
+
+    .mainFirstSection h2 {
         position: absolute;
-        top:18vh;
+        top: 18vh;
         left: 0;
         color: white;
         font-size: 25px;
@@ -1071,479 +1185,553 @@ main{
         text-align: center;
         width: 100%;
     }
-    .mainBoxImages{
+
+    .mainBoxImages {
         position: absolute;
-        top: 35vh;
+        top: 29vh;
         display: flex;
-        /* align-items: center;
-        justify-content: center; */
         flex-wrap: wrap;
         flex-direction: column;
-        height: 256.5vh;
+        height: 260vh;
         width: 85vw;
-        border: solid red;
     }
-    .mainImage1{
+
+    /* primeira imagem da caixa 1*/
+    .mainImage1 {
+        position: absolute;
+        top: 1.8vh;
         background-image: url(/assets/mainImage1.png);
         background-repeat: no-repeat;
         background-size: 100%;
         height: 56.2vh;
-        width: 43vw;
+        width: 100%;
     }
+
+    /* hover para ativar a imagem da caixa 1*/
     .mainImage1:hover .box1Image1 {
-        position:absolute;
-        display:flex;
-        left:0;
-         top:0;
-        width:50%;
-        height:58vh;
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 50vh;
         background-color: rgb(116, 23, 209);
         opacity: 0.7;
         transition: ease-in-out 1s;
-        transform:scale(110%);
+        transform: scale(110%);
     }
-    .box1Image1{
+
+    /* caixa que contem as bordas p e h2 da caixa 1 */
+    .box1Image1 {
         position: absolute;
+        left: 20vw;
         width: 41vw;
-        height:57vh;
+        height: 57vh;
         background-color: rgb(116, 23, 209);
         transition: ease-in-out 1s;
-        transform: scale(0.1%);
+        transform: scale(0%);
     }
-    .box1Image1 h2{
+
+    /* h2 da caixa 1 */
+    .box1Image1 h2 {
         position: absolute;
-        top: 8vh;
-        left: 6vw;
+        top: 6vh;
+        left: 8vw;
         width: 11.5vw;
         font-size: 28px;
     }
-    .box1Image1P{
+
+    /* p da caixa 1 */
+    .box1Image1P {
         position: absolute;
-        top: 25vh;
-        left: 6vw;
-        width: 20vw;
+        top: 23vh;
+        left: 8vw;
+        width: 70vw;
         color: white;
-        font-size: 25px;
+        font-size: 20px;
         font-family: "Open Sans", sans-serif;
         font-weight: 100;
     }
-    .box1Image1 button{
+
+    /* botão da caixa 1 */
+    .box1Image1 button {
         position: absolute;
-        top: 45vh;
-        left: 6.1vw;
+        top: 36vh;
+        left: 8.1vw;
         height: 6.5vh;
-        width: 10.5vw;
+        width: 20vw;
         font-size: 18px;
         color: white;
         background-color: transparent;
         border: solid 2px white;
         transition: ease-in-out 0.8s;
     }
-    .box1Image1 button:hover{
+
+    /* hover do button da caixa 1*/
+    .box1Image1 button:hover {
         box-shadow: inset 140px 0 rgb(57, 10, 78);
         opacity: 1;
         transform: scale(110%);
         background-color: none;
     }
-    .box2Image1{
+
+    /* borda esquerda da caixa 1 */
+    .box2Image1 {
         position: absolute;
-        top:2.7vh;
-        left: 2vw;
+        top: 2.3vh;
+        left: 4vw;
         border-left: 5px solid white;
         border-top: 5px solid white;
-        width: 5vw;
+        width: 9.5vw;
         height: 11vh;
-        opacity:1;  
+        opacity: 1;
     }
-    .box3Image1{
-        position: relative;
-        left: 36vw;
-        top:42.8vh;
+
+    /* borda direita da caixa 1 */
+    .box3Image1 {
+        position: absolute;
+        left: 71.2vw;
+        top: 37.3vh;
         height: 11vh;
-        width: 5vw;
+        width: 9.5vw;
         border-bottom: 5px solid white;
         border-right: 5px solid white;
     }
-    .mainImage2{
+
+    /* segunda imagem da main */
+    .mainImage2 {
         position: absolute;
-        top:0vh;
-        left:43vw;
-        width: 20.8vw;
-        height: 28.5vh;
-        font-size:10px;
+        top: 52.8vh;
+        left: 0vw;
+        width: 100%;
+        height: 51.5vh;
+        font-size: 10px;
         background-image: url("/assets/mainImage2.png");
         background-size: 100%;
         background-repeat: no-repeat;
     }
+
+    /* hover para ativar a imagem da caixa 2*/
     .mainImage2:hover .box1Image2 {
-        position:absolute;
-        display:flex;
-        left:0.04vw;
-         top:-1vh;
-        width:100%;
-        height:30vh;
+        position: absolute;
+        display: flex;
+        left: 0.04vw;
+        top: -1vh;
+        width: 100%;
+        height: 50vh;
         background-color: red;
         opacity: 0.5;
         transition: ease-in-out 1s;
-        transform:scale(110%);
+        transform: scale(110%);
         z-index: 10;
     }
-    .box1Image2{
+
+    /* caixa que contem as bordas p e h2 da caixa 2 */
+    .box1Image2 {
         position: absolute;
-        left: 4.5vw;
-        top: 8.5vh;
+        left: 35vw;
+        top: 20vh;
         width: 10vw;
-        height:10vh;
+        height: 10vh;
         background-color: red;
         opacity: 0.5;
         transition: ease-in-out 1s;
         transform: scale(0%);
     }
-    .box1Image2 h2{
+
+    /* h2 da caixa 2 */
+    .box1Image2 h2 {
         position: absolute;
-        top: 5vh;
-        left: 2.2vw;
-        width: 10vw;
-        font-size: 15px;
+        top: 5.5vh;
+        left: 9vw;
+        width: 11.5vw;
+        font-size: 23px;
     }
-    .box1Image2P{
+
+    /* p da caixa 2 */
+    .box1Image2P {
         position: absolute;
-        top: 14vh;
-        left: 2.3vw;
-        width: 16vw;
+        top: 19vh;
+        left: 9vw;
+        width: 70vw;
         color: white;
-        font-size: 10.6px;
+        font-size: 18px;
         font-family: "Open Sans", sans-serif;
         font-weight: 100;
     }
-    .box1Image2 button{
+
+    /* botão da caixa 2 */
+    .box1Image2 button {
         position: absolute;
-        top: 20vh;
-        left: 2.1vw;
-        height: 5vh;
-        width: 6.5vw;
-        font-size: 13px;
+        top: 35.5vh;
+        left: 9.1vw;
+        height: 6.5vh;
+        width: 20vw;
+        font-size: 18px;
         color: white;
         background-color: transparent;
         border: solid 2px white;
-        transform: scale(100%);
-        transition: ease-in-out 0.5s;
+        transition: ease-in-out 0.8s;
     }
-    .box1Image2 button:hover{
+
+    /* hover do button da caixa 2*/
+    .box1Image2 button:hover {
         transition: ease-in-out 0.5s;
         box-shadow: inset 140px 0 darkred;
         opacity: 1;
         transform: scale(110%);
         background-color: none;
     }
-    .box2Image2{
+
+    /* borda esquerda da caixa 2 */
+    .box2Image2 {
         position: absolute;
-        top:2.2vh;
-        left: 0.9vw;
+        top: 3vh;
+        left: 3.9vw;
         border-left: 5px solid white;
         border-top: 5px solid white;
-        width: 3.5vw;
-        height: 7.5vh;
-        opacity:1;  
+        width: 9.5vw;
+        height: 11vh;
+        opacity: 1;
     }
-    .box3Image2{
-        position: relative;
-        left: 16.3vw;
-        top:20.4vh;
-        height: 7.5vh;
-        width: 3.5vw;
+
+    /* borda direita da caixa 2*/
+    .box3Image2 {
+        position: absolute;
+        left: 71.2vw;
+        top: 38.8vh;
+        height: 11vh;
+        width: 9.5vw;
         border-bottom: 5px solid white;
         border-right: 5px solid white;
     }
-    .mainImage3{
+
+    /* terceira imagem main */
+    .mainImage3 {
         position: absolute;
-        top:0vh;
-        left:63.8vw;
-        width: 20.8vw;
-        height: 28.5vh;
-        font-size:10px;
+        top: 104.2vh;
+        left: 0;
+        width: 100%;
+        height: 51.5vh;
+        font-size: 10px;
         background-image: url("/assets/mainImage3.png");
         background-size: 100%;
         background-repeat: no-repeat;
     }
+
+    /* hover para ativar a imagem da caixa 3*/
     .mainImage3:hover .box1Image3 {
-        position:absolute;
-        display:flex;
-        left:0;
-         top:-1vh;
-        width:100%;
-        height:30vh;
+        position: absolute;
+        display: flex;
+        left: 0;
+        top: -1vh;
+        width: 100%;
+        height: 50vh;
         background-color: rgb(93, 228, 15);
         opacity: 0.8;
         transition: ease-in-out 1s;
-        transform:scale(110%);
+        transform: scale(110%);
         z-index: 10;
     }
-    .box1Image3{
+
+    /* caixa que contem as bordas p e h2 da caixa 3 */
+    .box1Image3 {
         position: absolute;
-        left: 4.5vw;
-        top: 8.5vh;
+        left: 37vw;
+        top: 18vh;
         width: 10vw;
-        height:10vh;
+        height: 10vh;
         background-color: rgb(93, 228, 15);
         opacity: 0.8;
         transition: ease-in-out 1s;
         transform: scale(0%);
         z-index: 5;
     }
-    .box1Image3 h2{
+
+    /* h2 da caixa 3 */
+    .box1Image3 h2 {
         position: absolute;
-        top: 4.5vh;
-        left: 2.5vw;
-        width: 10vw;
-        font-size: 15px;
-        color: white;
-        z-index: 10;
+        top: 5.5vh;
+        left: 9vw;
+        width: 11.5vw;
+        font-size: 23px;
     }
-    .box1Image3P{
+
+    /* p da caixa 3 */
+    .box1Image3P {
         position: absolute;
-        top: 11.5vh;
-        left: 2.5vw;
-        width: 16vw;
+        top: 19vh;
+        left: 9vw;
+        width: 70vw;
         color: white;
-        font-size: 12px;
+        font-size: 18px;
         font-family: "Open Sans", sans-serif;
         font-weight: 100;
-        z-index: 10;
     }
-    .box1Image3 button{
+
+    /* botão da caixa 1 */
+    .box1Image3 button {
         position: absolute;
-        top: 20.8vh;
-        left: 2.7vw;
-        height: 5vh;
-        width: 6.5vw;
-        font-size: 13px;
+        top: 35.5vh;
+        left: 9.1vw;
+        height: 6.5vh;
+        width: 20vw;
+        font-size: 18px;
         color: white;
         background-color: transparent;
         border: solid 2px white;
-        transform: scale(100%);
-        transition: ease-in-out 0.5s;
+        transition: ease-in-out 0.8s;
     }
-    .box1Image3 button:hover{
+
+    /* hover do button da caixa 3*/
+    .box1Image3 button:hover {
         transition: ease-in-out 0.5s;
         box-shadow: inset 140px 0 darkgreen;
         opacity: 1;
         transform: scale(110%);
         background-color: none;
     }
-    .box2Image3{
+
+    /* borda esquerda da caixa 3 */
+    .box2Image3 {
         position: absolute;
-        top:2.2vh;
-        left: 0.9vw;
+        top: 3vh;
+        left: 3.9vw;
         border-left: 5px solid white;
         border-top: 5px solid white;
-        width: 3.5vw;
-        height: 7.5vh;
-        opacity:1;  
+        width: 9.5vw;
+        height: 11vh;
+        opacity: 1;
     }
-    .box3Image3{
-        position: relative;
-        left: 16.3vw;
-        top:20.4vh;
-        height: 7.5vh;
-        width: 3.5vw;
+
+    /* borda direita da caixa 3*/
+    .box3Image3 {
+        position: absolute;
+        left: 71.2vw;
+        top: 38.8vh;
+        height: 11vh;
+        width: 9.5vw;
         border-bottom: 5px solid white;
         border-right: 5px solid white;
     }
-    .mainImage4{
+
+    /* quarta imagem da main */
+    .mainImage4 {
         position: absolute;
-        top:28vh;
-        left:43vw;
-        width: 20.8vw;
-        height: 28.5vh;
+        top: 155.5vh;
+        left: 0;
+        width: 100%;
+        height: 51.5vh;
         background-image: url("/assets/mainImage5.png");
         background-size: 100%;
-        background-repeat: no-repeat; 
+        background-repeat: no-repeat;
     }
+
+    /* hover para ativar a imagem da caixa 4*/
     .mainImage4:hover .box1Image4 {
-        position:absolute;
-        display:flex;
-        left:0;
-         top:-1vh;
-        width:100%;
-        height:30vh;
+        position: absolute;
+        display: flex;
+        left: 0;
+        top: -1vh;
+        width: 100%;
+        height: 50vh;
         background-color: rgb(243, 170, 60);
         opacity: 0.8;
         transition: ease-in-out 1s;
-        transform:scale(110%);
+        transform: scale(110%);
         z-index: 10;
     }
-    .box1Image4{
+
+    /* caixa que contem as bordas p e h2 da caixa 4 */
+    .box1Image4 {
         position: absolute;
-        left: 4.5vw;
-        top: 8.5vh;
+        left: 37vw;
+        top: 18vh;
         width: 10vw;
-        height:10vh;
+        height: 10vh;
         background-color: rgb(243, 170, 60);
         opacity: 0.8;
         transition: ease-in-out 1s;
         transform: scale(0%);
+        z-index: 5;
     }
-    .box1Image4 h2{
+
+    /* h2 da caixa 4 */
+    .box1Image4 h2 {
         position: absolute;
-        top: 4.3vh;
-        left: 2.5vw;
-        width: 10vw;
-        font-size: 15px;
-        color: white;
-        z-index: 10;
-        opacity: 1;
+        top: 9vh;
+        left: 8vw;
+        width: 70vw;
+        font-size: 20px;
+        padding-right: 25px;
     }
-    .box1Image4P{
+
+    /* p da caixa 4 */
+    .box1Image4P {
         position: absolute;
-        top: 11.7vh;
-        left: 2.5vw;
-        width: 16vw;
+        top: 19vh;
+        left: 9vw;
+        width: 70vw;
         color: white;
-        font-size: 11px;
+        font-size: 18px;
         font-family: "Open Sans", sans-serif;
         font-weight: 100;
-        z-index: 10;
-        opacity: 1;
     }
-    .box1Image4 button{
+
+    /* botão da caixa 4 */
+    .box1Image4 button {
         position: absolute;
-        top: 20.5vh;
-        left: 2.7vw;
-        height: 5vh;
-        width: 6.5vw;
-        font-size: 13px;
+        top: 35.5vh;
+        left: 9.1vw;
+        height: 6.5vh;
+        width: 20vw;
+        font-size: 18px;
         color: white;
         background-color: transparent;
         border: solid 2px white;
-        transform: scale(100%);
-        transition: ease-in-out 0.5s;
+        transition: ease-in-out 0.8s;
     }
-    .box1Image4 button:hover{
+
+    /* hover do button da caixa 1*/
+    .box1Image4 button:hover {
         transition: ease-in-out 0.5s;
         box-shadow: inset 140px 0 rgb(219, 135, 9);
         opacity: 1;
         transform: scale(110%);
         background-color: none;
     }
-    .box2Image4{
+
+    /* borda esquerda da caixa 1 */
+    .box2Image4 {
         position: absolute;
-        top:2.2vh;
-        left: 0.9vw;
+        top: 3vh;
+        left: 3.9vw;
         border-left: 5px solid white;
         border-top: 5px solid white;
-        width: 3.5vw;
-        height: 7.5vh;
-        opacity:1;  
+        width: 9.5vw;
+        height: 11vh;
+        opacity: 1;
     }
-    .box3Image4{
-        position: relative;
-        left: 16.3vw;
-        top:20.4vh;
-        height: 7.5vh;
-        width: 3.5vw;
+
+    /* borda direita da caixa 1 */
+    .box3Image4 {
+        position: absolute;
+        left: 71.2vw;
+        top: 38.8vh;
+        height: 11vh;
+        width: 9.5vw;
         border-bottom: 5px solid white;
         border-right: 5px solid white;
     }
-    .mainImage5{
+
+    /* imagem 5 da main */
+    .mainImage5 {
         position: absolute;
-        top:28vh;
-        left:63.8vw;
-        width: 20.8vw;
-        height: 28.5vh;
-        font-size:10px;
+        top: 206.9vh;
+        left: 0;
+        width: 100%;
+        height: 52.5vh;
+        font-size: 10px;
         background-image: url("/assets/mainImage4.png");
         background-size: 100%;
-        background-repeat: no-repeat; 
+        background-repeat: no-repeat;
     }
+
+    /* hover para ativar a imagem da caixa 5*/
     .mainImage5:hover .box1Image5 {
-        position:absolute;
-        display:flex;
-        left:0;
-         top:0;
-        width:100%;
-        height:30vh;
+        position: absolute;
+        display: flex;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 50vh;
         background-color: rgb(6, 30, 248);
         opacity: 0.8;
         transition: ease-in-out 1s;
-        transform:scale(110%);
+        transform: scale(110%);
         z-index: 10;
     }
-    .box1Image5{
+
+    /* caixa que contem as bordas p e h2 da caixa 5 */
+    .box1Image5 {
         position: absolute;
-        left: 4.5vw;
-        top: 8.5vh;
+        left: 37vw;
+        top: 18vh;
         width: 10vw;
-        height:10vh;
+        height: 10vh;
         background-color: rgb(6, 30, 248);
+        opacity: 0.8;
         transition: ease-in-out 1s;
         transform: scale(0%);
-        opacity: 0.8;
+        z-index: 5;
     }
-    
-    .box1Image5 h2{
+
+    /* h2 da caixa 5 */
+    .box1Image5 h2 {
         position: absolute;
-        top: 4vh;
-        left: 2.5vw;
-        width: 10vw;
-        font-size: 16px;
-        color: white;
-        z-index: 10;
-        opacity: 1;
+        top: 9vh;
+        left: 1vw;
+        width: 70vw;
+        font-size: 20px;
+        padding-right: 25px;
     }
-    .box1Image5P{
+
+    /* p da caixa 5 */
+    .box1Image5P {
         position: absolute;
-        top: 11.5vh;
-        left: 2.5vw;
-        width: 16vw;
+        top: 19vh;
+        left: 9vw;
+        width: 70vw;
         color: white;
-        font-size: 11px;
+        font-size: 18px;
         font-family: "Open Sans", sans-serif;
         font-weight: 100;
-        z-index: 10;
-        opacity: 1;
     }
-    .box2Image5{
+
+    /* borda esquerda da caixa 1 */
+    .box2Image5 {
         position: absolute;
-        top:1.5vh;
-        left: 1vw;
+        top: 2.3vh;
+        left: 3.9vw;
         border-left: 5px solid white;
         border-top: 5px solid white;
-        width: 3.5vw;
-        height: 7.5vh;
-        opacity:1;  
+        width: 9.5vw;
+        height: 11vh;
+        opacity: 1;
     }
-    .box3Image5{
-        position: relative;
-        left: 16.2vw;
-        top:19.4vh;
-        height: 7.5vh;
-        width: 3.5vw;
+
+    /* borda direita da caixa 1 */
+    .box3Image5 {
+        position: absolute;
+        left: 71.2vw;
+        top: 38.8vh;
+        height: 11vh;
+        width: 9.5vw;
         border-bottom: 5px solid white;
         border-right: 5px solid white;
     }
-    .box1Image5 button{
-        position: absolute;
-        top: 18.5vh;
-        left: 2.6vw;
-        height: 5vh;
-        width: 6.5vw;
-        font-size: 13px;
+
+    /* botão da caixa 5 */
+    .box1Image5 button {
+        top: 33vh;
+        left: 9.1vw;
+        height: 6.5vh;
+        width: 20vw;
+        font-size: 18px;
         color: white;
         background-color: transparent;
         border: solid 2px white;
-        transform: scale(100%);
-        transition: ease-in-out 0.5s;
+        transition: ease-in-out 0.8s;
     }
-    .box1Image5 button:hover{
+
+    /* hover do button da caixa 1*/
+    .box1Image5 button:hover {
         transition: ease-in-out 0.5s;
         box-shadow: inset 140px 0 rgb(6, 180, 248);
         opacity: 1;
         transform: scale(110%);
         background-color: none;
     }
-    
-    .boxSecondMFigure{
+
+    .boxSecondMFigure {
         position: absolute;
         display: flex;
         flex-direction: row-reverse;
@@ -1553,32 +1741,37 @@ main{
         height: 69.7vh;
         width: 99.9%;
     }
-    .secondMainFigure{
+
+    .secondMainFigure {
         position: absolute;
         top: 0;
-        left:0%;
+        left: 0%;
         height: 60.4vh;
         border: 1px solid gray;
     }
-    .boxSecondMFigure figcaption{
+
+    .boxSecondMFigure figcaption {
         position: absolute;
         width: 56%;
-        left:35vw;
+        left: 35vw;
         font-family: "Roboto";
         color: white;
         font-size: 10px;
         font-weight: 100;
-        text-align:right;
+        text-align: right;
     }
-    .darkTrooperbox{
+
+    .darkTrooperbox {
         position: absolute;
         top: 364.7vh;
         left: -40vw;
     }
-    .darkTrooper{
+
+    .darkTrooper {
         height: 150vh;
     }
-    .mainFirstSection p{
+
+    .lastSectionP {
         position: absolute;
         top: 374vh;
         left: 55vw;
@@ -1586,7 +1779,7 @@ main{
         font-family: "Sovereign", sans-serif;
         font-weight: 900;
         font-size: 18px;
-        
+
     }
 }
 
@@ -1594,23 +1787,25 @@ main{
 /*  END PART OF RESPONSIVE MAIN*/
 
 /*  BEGINING FOOTER*/
-footer{
+footer {
     position: absolute;
     width: 100%;
     height: 156vh;
     /* border: solid red; */
 }
-.footerButtons{
+
+.footerButtons {
     position: absolute;
-    display:flex;
+    display: flex;
     /* flex-wrap: wrap; */
     top: 7.5vh;
     left: 32vw;
     height: 36vh;
-    width:62%;
+    width: 62%;
     /* border: solid; */
 }
-.oneBoxButton{
+
+.oneBoxButton {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -1618,7 +1813,8 @@ footer{
     width: 35%;
     transition: ease-in-out 0.1s;
 }
-.firstP{
+
+.firstP {
     font-family: "Roboto";
     font-weight: 100;
     text-align: center;
@@ -1626,19 +1822,23 @@ footer{
     font-size: 35px;
     transition: ease-in-out 0.5s;
 }
-.oneBoxButton:hover, .firstP:hover{
+
+.oneBoxButton:hover,
+.firstP:hover {
     font-size: 40px;
-    font-weight:900;
+    font-weight: 900;
 }
-.oneBoxButton:hover{
+
+.oneBoxButton:hover {
     font-size: 18.1px;
     width: 40%;
 }
-.oneBoxButton button{
+
+.oneBoxButton button {
     position: absolute;
-    top:11vh ;
-    width:70%;
-    height:25%;
+    top: 11vh;
+    width: 70%;
+    height: 25%;
     font-size: 22px;
     font-weight: 1;
     font-family: "Open Sans";
@@ -1646,11 +1846,14 @@ footer{
     transition: ease-in-out 1s;
     background-color: black;
 }
-.oneBoxButton button:hover, .lineButtonF:hover {
+
+.oneBoxButton button:hover,
+.lineButtonF:hover {
     box-shadow: inset red 220px 0;
     cursor: pointer;
-} 
- .secondP{
+}
+
+.secondP {
     position: absolute;
     top: 23vh;
     width: 55.4%;
@@ -1658,15 +1861,17 @@ footer{
     font-weight: 300;
     transition: ease-in-out 0.5s;
 }
- .lineButtonF{
+
+.lineButtonF {
     position: absolute;
     top: 33vh;
-    background-color:black;
+    background-color: black;
     width: 25%;
     height: 1.5%;
     transition: ease-in-out 0.5s;
 }
-.secondP2{
+
+.secondP2 {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -1675,11 +1880,13 @@ footer{
     font-family: "Open Sans";
     font-weight: 300;
 }
-.footerSpan1{
+
+.footerSpan1 {
     width: 100%;
     text-align: center;
 }
-.secondP3{
+
+.secondP3 {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -1688,32 +1895,36 @@ footer{
     font-family: "Open Sans";
     font-weight: 300;
 }
-.footerSpan2{
+
+.footerSpan2 {
     width: 100%;
     padding-right: 6px;
     text-align: center;
 }
+
 /*-------------------------------*/
 /* FIRST PART OF FOOTER RESPONSIVE */
-@media (max-width: 500px){
-    footer{
+@media (max-width: 500px) {
+    footer {
         position: absolute;
         width: 100%;
         height: 125vh;
-        top:663.5vh;
+        top: 663.5vh;
         /* border: solid red; */
     }
-    .footerButtons{
+
+    .footerButtons {
         position: absolute;
-        display:flex;
+        display: flex;
         flex-wrap: wrap;
         top: 5.5vh;
         left: 45vw;
         height: 113.5vh;
-        width:50%;
+        width: 50%;
         /* border: solid hotpink; */
     }
-    .oneBoxButton{
+
+    .oneBoxButton {
         display: flex;
         position: relative;
         flex-direction: column;
@@ -1722,7 +1933,8 @@ footer{
         transition: ease-in-out 0.1s;
         /* border: solid darkblue; */
     }
-    .firstP{
+
+    .firstP {
         font-family: "Roboto";
         font-weight: 100;
         text-align: center;
@@ -1730,19 +1942,23 @@ footer{
         font-size: 35px;
         transition: ease-in-out 0.5s;
     }
-    .oneBoxButton:hover, .firstP:hover{
+
+    .oneBoxButton:hover,
+    .firstP:hover {
         font-size: 40px;
-        font-weight:900;
+        font-weight: 900;
     }
-    .oneBoxButton:hover{
+
+    .oneBoxButton:hover {
         font-size: 18.1px;
         width: 40%;
     }
-    .oneBoxButton button{
+
+    .oneBoxButton button {
         position: absolute;
-        top:9vh ;
-        width:70%;
-        height:25%;
+        top: 9vh;
+        width: 70%;
+        height: 25%;
         font-size: 22px;
         font-weight: 1;
         font-family: "Open Sans";
@@ -1750,11 +1966,14 @@ footer{
         transition: ease-in-out 1s;
         background-color: black;
     }
-    .oneBoxButton button:hover, .lineButtonF:hover {
+
+    .oneBoxButton button:hover,
+    .lineButtonF:hover {
         box-shadow: inset red 220px 0;
         cursor: pointer;
-    } 
-     .secondP{
+    }
+
+    .secondP {
         position: absolute;
         top: 19vh;
         width: 60%;
@@ -1764,7 +1983,8 @@ footer{
         /* border: solid; */
         font-size: 16px;
     }
-     .lineButtonF{
+
+    .lineButtonF {
         position: absolute;
         top: 28vh;
         border: solid;
@@ -1772,7 +1992,8 @@ footer{
         height: 1.5%;
         transition: ease-in-out 0.5s;
     }
-    .secondP2{
+
+    .secondP2 {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -1782,11 +2003,13 @@ footer{
         font-weight: 300;
         text-align: center;
     }
-    .footerSpan1{
+
+    .footerSpan1 {
         width: 100%;
         text-align: center;
     }
-    .secondP3{
+
+    .secondP3 {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -1796,13 +2019,15 @@ footer{
         font-weight: 300;
         text-align: center;
     }
-    .footerSpan2{
+
+    .footerSpan2 {
         width: 100%;
         padding-right: 6px;
         text-align: center;
     }
 
 }
+
 /* END OF RESPONSIVE FOOTER PART OF MAIN */
 /*-------------------------------*/
 
@@ -1810,16 +2035,17 @@ footer{
 
 /* SECOND PART OF FOOTER */
 
-.secondFooter{
+.secondFooter {
     position: absolute;
     top: 64vh;
     left: 0vw;
     width: 62.5%;
     /* border: solid rgb(120, 2, 150); */
     height: 110vh;
-    background-color:#FF5A56 ;
+    background-color: #FF5A56;
 }
-.secondFooter h2{
+
+.secondFooter h2 {
     position: absolute;
     top: 16vh;
     left: 13vw;
@@ -1828,7 +2054,8 @@ footer{
     font-weight: 900;
     color: white;
 }
-.firstPFooter{
+
+.firstPFooter {
     position: absolute;
     top: 29vh;
     left: 13vw;
@@ -1836,101 +2063,113 @@ footer{
     font-family: "Open Sans";
     font-weight: 100;
     font-size: 15px;
-    width:48%;
+    width: 48%;
 }
-.darthVader{
+
+.darthVader {
     position: relative;
     top: -16vh;
     left: 50.5vw;
     height: 120vh;
-    width:45vw;
+    width: 45vw;
     /* border: solid; */
     background-image: url(/assets/DARTHVADER.png);
     background-size: 95%;
     background-repeat: no-repeat;
 
 }
-.boxOfApps{
+
+.boxOfApps {
     position: absolute;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     top: 44vh;
-    left:12.4vw;
+    left: 12.4vw;
     /* border: solid; */
     width: 52.5%;
 }
-.boxOfApps img{
+
+.boxOfApps img {
     height: 10vh;
 }
-.lineFooter{
+
+.lineFooter {
     position: absolute;
     top: 61vh;
     left: 12.9vw;
-    color:#D74430;
+    color: #D74430;
     border: 2px solid;
     width: 51%;
-    
+
 }
-.letterStarWars{
+
+.letterStarWars {
     position: absolute;
     left: 13vw;
     top: 68vh;
 }
-.letterStarWars img{
+
+.letterStarWars img {
     height: 16vh;
 }
-.secondPFooter{
+
+.secondPFooter {
     position: absolute;
-    top:89vh;
+    top: 89vh;
     left: 13vw;
     color: white;
-    width:43.5% ;
+    width: 43.5%;
     /* border: solid; */
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 100;
     text-align: left;
 }
-.secondPFooter2{
+
+.secondPFooter2 {
     position: absolute;
-    top:95.1vh;
+    top: 95.1vh;
     left: 13vw;
     color: white;
-    width:43.5% ;
+    width: 43.5%;
     /* border: solid; */
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 100;
     text-align: left;
 }
-.responsiveText{
+
+.responsiveText {
     display: none;
 }
-.vaiNaWeb{
+
+.vaiNaWeb {
     position: relative;
     top: -24vh;
     left: 70vw;
-    width:40% ;
+    width: 40%;
     font-family: "Open Sans";
     font-size: 12px;
 }
-.vaiNaWeb a{
+
+.vaiNaWeb a {
     color: black;
     text-decoration: none;
 }
 
 
-@media (max-width: 500px){
-    .secondFooter{
+@media (max-width: 500px) {
+    .secondFooter {
         position: absolute;
         top: 127vh;
         left: 0vw;
         width: 99.8%;
         /* border: solid rgb(120, 2, 150); */
         height: 179vh;
-        background-color:#FF5A56 ;
+        background-color: #FF5A56;
     }
-    .secondFooter h2{
+
+    .secondFooter h2 {
         position: absolute;
         top: 12vh;
         left: 0vw;
@@ -1942,7 +2181,8 @@ footer{
         text-align: center;
         width: 100%;
     }
-    .firstPFooter{
+
+    .firstPFooter {
         position: absolute;
         top: 29vh;
         left: 9.5vw;
@@ -1950,97 +2190,110 @@ footer{
         font-family: "Open Sans";
         font-weight: 100;
         font-size: 17.8px;
-        width:80%;
-       font-weight: 100;
+        width: 80%;
+        font-weight: 100;
     }
-    .spanFooter{
+
+    .spanFooter {
         display: flex;
         font-size: 17.8px;
         font-weight: 100;
     }
-    .darthVader{
+
+    .darthVader {
         position: relative;
         top: 128.5vh;
-        left:4.5vw;
+        left: 4.5vw;
         height: 120vh;
-        width:88vw;
+        width: 88vw;
         /* border: solid; */
         background-image: url(/assets/DARTHVADER.png);
         background-size: 100%;
         background-repeat: no-repeat;
-    
+
     }
-    .boxOfApps{
+
+    .boxOfApps {
         position: absolute;
-        display:flex;
+        display: flex;
         justify-content: space-around;
         top: 56vh;
-        left:8.2vw;
+        left: 8.2vw;
         /* border: solid; */
         width: 80%;
     }
-    .boxOfApps img{
+
+    .boxOfApps img {
         height: 11vh;
     }
-    .lineFooter{
+
+    .lineFooter {
         position: absolute;
         top: 71vh;
         left: 9.4vw;
-        color:#D74430;
+        color: #D74430;
         border: 3px solid;
         width: 77.5%;
-        
+
     }
-    .letterStarWars{
+
+    .letterStarWars {
         position: absolute;
         display: flex;
-        left:0;
+        left: 0;
         top: 81vh;
         /* border: solid; */
         width: 100%;
         justify-content: center;
     }
-    .letterStarWars img{
+
+    .letterStarWars img {
         height: 18.5vh;
     }
-    .secondPFooter{
+
+    .secondPFooter {
         display: none;
-    } 
-    .responsiveText{
+    }
+
+    .responsiveText {
         display: block;
         position: absolute;
-        top:103.8vh;
+        top: 103.8vh;
         left: 9vw;
         color: white;
-        width:79%;
+        width: 79%;
         /* border: solid palegreen; */
         font-family: "Open Sans";
         font-size: 18px;
         font-weight: 100;
         text-align: left;
     }
-    .secondPFooter2{
+
+    .secondPFooter2 {
         display: none;
     }
-    .vaiNaWeb{
+
+    .vaiNaWeb {
         position: relative;
         top: 125vh;
         left: 5vw;
-        width:85%;
+        width: 85%;
         height: 14vh;
         font-family: "Open Sans";
         font-size: 12px;
         /* border: solid; */
     }
-    .vaiNaWeb a{
+
+    .vaiNaWeb a {
         color: black;
         text-decoration: none;
     }
-    .spanFooter{
+
+    .spanFooter {
         display: flex;
         font-size: 17.5px;
     }
-    
+
 
 
 }
