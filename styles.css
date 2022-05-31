@@ -574,11 +574,28 @@ main{
     top: 25vh;
     left: 6vw;
     width: 20vw;
-    /* border: solid; */
     color: white;
     font-size: 25px;
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
+}
+.box1Image1 button{
+    position: absolute;
+    top: 45vh;
+    left: 6.1vw;
+    height: 6.5vh;
+    width: 10.5vw;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    border: solid 2px white;
+    transition: ease-in-out 0.8s;
+}
+.box1Image1 button:hover{
+    box-shadow: inset 140px 0 rgb(57, 10, 78);
+    opacity: 1;
+    transform: scale(110%);
+    background-color: none;
 }
 .box2Image1{
     position: absolute;
@@ -592,8 +609,8 @@ main{
 }
 .box3Image1{
     position: relative;
-    left: 33.6vw;
-    top:39.1vh;
+    left: 36vw;
+    top:42.8vh;
     height: 11vh;
     width: 5vw;
     border-bottom: 5px solid white;
@@ -620,7 +637,7 @@ main{
     width:100%;
     height:30vh;
     background-color: red;
-    opacity: 0.7;
+    opacity: 0.5;
     transition: ease-in-out 1s;
     transform:scale(110%);
     z-index: 10;
@@ -632,6 +649,7 @@ main{
     width: 10vw;
     height:10vh;
     background-color: red;
+    opacity: 0.5;
     transition: ease-in-out 1s;
     transform: scale(0%);
 }
@@ -641,25 +659,60 @@ main{
     left: 2.2vw;
     width: 10vw;
     font-size: 15px;
-    /* border: solid; */
 }
 .box1Image2P{
     position: absolute;
     top: 14vh;
-    left: 2.2vw;
+    left: 2.3vw;
     width: 16vw;
-    /* border: solid; */
     color: white;
-    font-size: 10px;
+    font-size: 10.6px;
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
 }
-
+.box1Image2 button{
+    position: absolute;
+    top: 20vh;
+    left: 2.1vw;
+    height: 5vh;
+    width: 6.5vw;
+    font-size: 13px;
+    color: white;
+    background-color: transparent;
+    border: solid 2px white;
+    transform: scale(100%);
+    transition: ease-in-out 0.5s;
+}
+.box1Image2 button:hover{
+    transition: ease-in-out 0.5s;
+    box-shadow: inset 140px 0 darkred;
+    opacity: 1;
+    transform: scale(110%);
+    background-color: none;
+}
+.box2Image2{
+    position: absolute;
+    top:2.2vh;
+    left: 0.9vw;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+    width: 3.5vw;
+    height: 7.5vh;
+    opacity:1;  
+}
+.box3Image2{
+    position: relative;
+    left: 16.3vw;
+    top:20.4vh;
+    height: 7.5vh;
+    width: 3.5vw;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}
 .mainImage3{
     position: absolute;
     top:0vh;
     left:63.8vw;
-    /* border: solid green; */
     width: 20.8vw;
     height: 28.5vh;
     font-size:10px;
@@ -694,35 +747,69 @@ main{
 }
 .box1Image3 h2{
     position: absolute;
-    top: 6vh;
+    top: 4.5vh;
     left: 2.5vw;
     width: 10vw;
     font-size: 15px;
-    z-index: 10;
     color: white;
     z-index: 10;
-    /* border: solid; */
 }
 .box1Image3P{
     position: absolute;
-    top: 15vh;
-    left: 2.2vw;
+    top: 11.5vh;
+    left: 2.5vw;
     width: 16vw;
-    /* border: solid; */
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
     z-index: 10;
+}
+.box1Image3 button{
+    position: absolute;
+    top: 20.8vh;
+    left: 2.7vw;
+    height: 5vh;
+    width: 6.5vw;
+    font-size: 13px;
+    color: white;
+    background-color: transparent;
+    border: solid 2px white;
+    transform: scale(100%);
+    transition: ease-in-out 0.5s;
+}
+.box1Image3 button:hover{
+    transition: ease-in-out 0.5s;
+    box-shadow: inset 140px 0 darkgreen;
+    opacity: 1;
+    transform: scale(110%);
+    background-color: none;
+}
+.box2Image3{
+    position: absolute;
+    top:2.2vh;
+    left: 0.9vw;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+    width: 3.5vw;
+    height: 7.5vh;
+    opacity:1;  
+}
+.box3Image3{
+    position: relative;
+    left: 16.3vw;
+    top:20.4vh;
+    height: 7.5vh;
+    width: 3.5vw;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
 }
 .mainImage4{
     position: absolute;
     top:28vh;
     left:43vw;
-    /* border: solid green; */
     width: 20.8vw;
     height: 28.5vh;
-    font-size:10px;
     background-image: url("/assets/mainImage5.png");
     background-size: 100%;
     background-repeat: no-repeat; 
@@ -731,11 +818,11 @@ main{
     position:absolute;
     display:flex;
     left:0;
-     top:0;
+     top:-1vh;
     width:100%;
     height:30vh;
-    background-color: rgb(244, 248, 6);
-    opacity: 0.5;
+    background-color: rgb(243, 170, 60);
+    opacity: 0.8;
     transition: ease-in-out 1s;
     transform:scale(110%);
     z-index: 10;
@@ -746,15 +833,76 @@ main{
     top: 8.5vh;
     width: 10vw;
     height:10vh;
-    background-color: rgb(244, 248, 6);
+    background-color: rgb(243, 170, 60);
+    opacity: 0.8;
     transition: ease-in-out 1s;
     transform: scale(0%);
+}
+.box1Image4 h2{
+    position: absolute;
+    top: 4.3vh;
+    left: 2.5vw;
+    width: 10vw;
+    font-size: 15px;
+    color: white;
+    z-index: 10;
+    opacity: 1;
+}
+.box1Image4P{
+    position: absolute;
+    top: 11.7vh;
+    left: 2.5vw;
+    width: 16vw;
+    color: white;
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    z-index: 10;
+    opacity: 1;
+}
+.box1Image4 button{
+    position: absolute;
+    top: 20.5vh;
+    left: 2.7vw;
+    height: 5vh;
+    width: 6.5vw;
+    font-size: 13px;
+    color: white;
+    background-color: transparent;
+    border: solid 2px white;
+    transform: scale(100%);
+    transition: ease-in-out 0.5s;
+}
+.box1Image4 button:hover{
+    transition: ease-in-out 0.5s;
+    box-shadow: inset 140px 0 rgb(219, 135, 9);
+    opacity: 1;
+    transform: scale(110%);
+    background-color: none;
+}
+.box2Image4{
+    position: absolute;
+    top:2.2vh;
+    left: 0.9vw;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+    width: 3.5vw;
+    height: 7.5vh;
+    opacity:1;  
+}
+.box3Image4{
+    position: relative;
+    left: 16.3vw;
+    top:20.4vh;
+    height: 7.5vh;
+    width: 3.5vw;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
 }
 .mainImage5{
     position: absolute;
     top:28vh;
     left:63.8vw;
-    /* border: solid green; */
     width: 20.8vw;
     height: 28.5vh;
     font-size:10px;
@@ -770,7 +918,7 @@ main{
     width:100%;
     height:30vh;
     background-color: rgb(6, 30, 248);
-    opacity: 0.5;
+    opacity: 0.8;
     transition: ease-in-out 1s;
     transform:scale(110%);
     z-index: 10;
@@ -784,8 +932,73 @@ main{
     background-color: rgb(6, 30, 248);
     transition: ease-in-out 1s;
     transform: scale(0%);
+    opacity: 0.8;
 }
 
+.box1Image5 h2{
+    position: absolute;
+    top: 4vh;
+    left: 2.5vw;
+    width: 10vw;
+    font-size: 16px;
+    color: white;
+    z-index: 10;
+    opacity: 1;
+}
+.box1Image5P{
+    position: absolute;
+    top: 11.5vh;
+    left: 2.5vw;
+    width: 16vw;
+    color: white;
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    z-index: 10;
+    opacity: 1;
+}
+.box2Image5{
+    position: absolute;
+    top:1.5vh;
+    left: 1vw;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+    width: 3.5vw;
+    height: 7.5vh;
+    opacity:1;  
+}
+.box3Image5{
+    position: relative;
+    left: 16.2vw;
+    top:19.4vh;
+    height: 7.5vh;
+    width: 3.5vw;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}
+.box1Image5 button{
+    position: absolute;
+    top: 18.5vh;
+    left: 2.6vw;
+    height: 5vh;
+    width: 6.5vw;
+    font-size: 13px;
+    color: white;
+    background-color: transparent;
+    border: solid 2px white;
+    transform: scale(100%);
+    transition: ease-in-out 0.5s;
+}
+.box1Image5 button:hover{
+    transition: ease-in-out 0.5s;
+    box-shadow: inset 140px 0 rgb(6, 180, 248);
+    opacity: 1;
+    transform: scale(110%);
+    background-color: none;
+}
+
+/* --------------------------------- */
+/* end of main animation part */
 
 
 .boxSecondMFigure{
@@ -868,83 +1081,475 @@ main{
         flex-direction: column;
         height: 256.5vh;
         width: 85vw;
-        /* border: solid red; */
+        border: solid red;
     }
     .mainImage1{
-        height: 51vh;
+        background-image: url(/assets/mainImage1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 56.2vh;
+        width: 43vw;
     }
-    .imagesBorder{
-        position: absolute;
-        /* border: solid rebeccapurple; */
-        width: 50.4%;
-        height: 100%;
-        opacity: 0.5;
-        transition: ease-in-out 1s;  
-    }
-    .imagesBorder:hover{
-        content:'NARUTO';
-        position: absolute;
-        transform:scale(110%);
-        background-color:rgb(21, 238, 14);
-        opacity: 0.5;
-        font-display:initial;
-    }
-    
-    
-    
-    /* estudar hover after e before */
-    /* .imagesBorder:hover{
-        animation: starBox 0.9s ease-in-out -0.2s 1 normal forwards;
-        background-color: red;
-    } 
-    @keyframes starBox {
-        0%{
-            transform: scale(5%);
-        }
-        100%{
-            transform: scale(110%);
-        }
-    } */
-    .mainImage2{
-        height: 51vh;
-        opacity: 0.5;
-        transition: ease-in-out 1s; 
-    }
-    .imagesBorder2{
-        position: absolute;
-        left:42.5vw;
-        height: 29vh;
-        width:25.1%;
-        transition: ease-in-out 1s; 
-
-    }
-    .imagesBorder2:hover{
-        content: 'Novos gráficos';
-        color: white;
-        position: absolute;
-        transform:scale(112%);
-        background-color:rgb(21, 238, 14);
-    
-        opacity: 0.5;
-    }
-    
-    /* .imagesBorder{
+    .mainImage1:hover .box1Image1 {
+        position:absolute;
+        display:flex;
+        left:0;
+         top:0;
+        width:50%;
+        height:58vh;
+        background-color: rgb(116, 23, 209);
+        opacity: 0.7;
         transition: ease-in-out 1s;
-        border-top:solid 4px white;
-        border-left: solid 4px white;
-    } */
-    /* .mainImage2:hover{
+        transform:scale(110%);
+    }
+    .box1Image1{
+        position: absolute;
+        width: 41vw;
+        height:57vh;
+        background-color: rgb(116, 23, 209);
+        transition: ease-in-out 1s;
+        transform: scale(0.1%);
+    }
+    .box1Image1 h2{
+        position: absolute;
+        top: 8vh;
+        left: 6vw;
+        width: 11.5vw;
+        font-size: 28px;
+    }
+    .box1Image1P{
+        position: absolute;
+        top: 25vh;
+        left: 6vw;
+        width: 20vw;
+        color: white;
+        font-size: 25px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 100;
+    }
+    .box1Image1 button{
+        position: absolute;
+        top: 45vh;
+        left: 6.1vw;
+        height: 6.5vh;
+        width: 10.5vw;
+        font-size: 18px;
+        color: white;
+        background-color: transparent;
+        border: solid 2px white;
+        transition: ease-in-out 0.8s;
+    }
+    .box1Image1 button:hover{
+        box-shadow: inset 140px 0 rgb(57, 10, 78);
         opacity: 1;
-        transform: scale(1.1);
+        transform: scale(110%);
+        background-color: none;
+    }
+    .box2Image1{
+        position: absolute;
+        top:2.7vh;
+        left: 2vw;
+        border-left: 5px solid white;
+        border-top: 5px solid white;
+        width: 5vw;
+        height: 11vh;
+        opacity:1;  
+    }
+    .box3Image1{
+        position: relative;
+        left: 36vw;
+        top:42.8vh;
+        height: 11vh;
+        width: 5vw;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+    }
+    .mainImage2{
+        position: absolute;
+        top:0vh;
+        left:43vw;
+        width: 20.8vw;
+        height: 28.5vh;
+        font-size:10px;
+        background-image: url("/assets/mainImage2.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .mainImage2:hover .box1Image2 {
+        position:absolute;
+        display:flex;
+        left:0.04vw;
+         top:-1vh;
+        width:100%;
+        height:30vh;
         background-color: red;
-    } */
+        opacity: 0.5;
+        transition: ease-in-out 1s;
+        transform:scale(110%);
+        z-index: 10;
+    }
+    .box1Image2{
+        position: absolute;
+        left: 4.5vw;
+        top: 8.5vh;
+        width: 10vw;
+        height:10vh;
+        background-color: red;
+        opacity: 0.5;
+        transition: ease-in-out 1s;
+        transform: scale(0%);
+    }
+    .box1Image2 h2{
+        position: absolute;
+        top: 5vh;
+        left: 2.2vw;
+        width: 10vw;
+        font-size: 15px;
+    }
+    .box1Image2P{
+        position: absolute;
+        top: 14vh;
+        left: 2.3vw;
+        width: 16vw;
+        color: white;
+        font-size: 10.6px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 100;
+    }
+    .box1Image2 button{
+        position: absolute;
+        top: 20vh;
+        left: 2.1vw;
+        height: 5vh;
+        width: 6.5vw;
+        font-size: 13px;
+        color: white;
+        background-color: transparent;
+        border: solid 2px white;
+        transform: scale(100%);
+        transition: ease-in-out 0.5s;
+    }
+    .box1Image2 button:hover{
+        transition: ease-in-out 0.5s;
+        box-shadow: inset 140px 0 darkred;
+        opacity: 1;
+        transform: scale(110%);
+        background-color: none;
+    }
+    .box2Image2{
+        position: absolute;
+        top:2.2vh;
+        left: 0.9vw;
+        border-left: 5px solid white;
+        border-top: 5px solid white;
+        width: 3.5vw;
+        height: 7.5vh;
+        opacity:1;  
+    }
+    .box3Image2{
+        position: relative;
+        left: 16.3vw;
+        top:20.4vh;
+        height: 7.5vh;
+        width: 3.5vw;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+    }
+    .mainImage3{
+        position: absolute;
+        top:0vh;
+        left:63.8vw;
+        width: 20.8vw;
+        height: 28.5vh;
+        font-size:10px;
+        background-image: url("/assets/mainImage3.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .mainImage3:hover .box1Image3 {
+        position:absolute;
+        display:flex;
+        left:0;
+         top:-1vh;
+        width:100%;
+        height:30vh;
+        background-color: rgb(93, 228, 15);
+        opacity: 0.8;
+        transition: ease-in-out 1s;
+        transform:scale(110%);
+        z-index: 10;
+    }
+    .box1Image3{
+        position: absolute;
+        left: 4.5vw;
+        top: 8.5vh;
+        width: 10vw;
+        height:10vh;
+        background-color: rgb(93, 228, 15);
+        opacity: 0.8;
+        transition: ease-in-out 1s;
+        transform: scale(0%);
+        z-index: 5;
+    }
+    .box1Image3 h2{
+        position: absolute;
+        top: 4.5vh;
+        left: 2.5vw;
+        width: 10vw;
+        font-size: 15px;
+        color: white;
+        z-index: 10;
+    }
+    .box1Image3P{
+        position: absolute;
+        top: 11.5vh;
+        left: 2.5vw;
+        width: 16vw;
+        color: white;
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 100;
+        z-index: 10;
+    }
+    .box1Image3 button{
+        position: absolute;
+        top: 20.8vh;
+        left: 2.7vw;
+        height: 5vh;
+        width: 6.5vw;
+        font-size: 13px;
+        color: white;
+        background-color: transparent;
+        border: solid 2px white;
+        transform: scale(100%);
+        transition: ease-in-out 0.5s;
+    }
+    .box1Image3 button:hover{
+        transition: ease-in-out 0.5s;
+        box-shadow: inset 140px 0 darkgreen;
+        opacity: 1;
+        transform: scale(110%);
+        background-color: none;
+    }
+    .box2Image3{
+        position: absolute;
+        top:2.2vh;
+        left: 0.9vw;
+        border-left: 5px solid white;
+        border-top: 5px solid white;
+        width: 3.5vw;
+        height: 7.5vh;
+        opacity:1;  
+    }
+    .box3Image3{
+        position: relative;
+        left: 16.3vw;
+        top:20.4vh;
+        height: 7.5vh;
+        width: 3.5vw;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+    }
+    .mainImage4{
+        position: absolute;
+        top:28vh;
+        left:43vw;
+        width: 20.8vw;
+        height: 28.5vh;
+        background-image: url("/assets/mainImage5.png");
+        background-size: 100%;
+        background-repeat: no-repeat; 
+    }
+    .mainImage4:hover .box1Image4 {
+        position:absolute;
+        display:flex;
+        left:0;
+         top:-1vh;
+        width:100%;
+        height:30vh;
+        background-color: rgb(243, 170, 60);
+        opacity: 0.8;
+        transition: ease-in-out 1s;
+        transform:scale(110%);
+        z-index: 10;
+    }
+    .box1Image4{
+        position: absolute;
+        left: 4.5vw;
+        top: 8.5vh;
+        width: 10vw;
+        height:10vh;
+        background-color: rgb(243, 170, 60);
+        opacity: 0.8;
+        transition: ease-in-out 1s;
+        transform: scale(0%);
+    }
+    .box1Image4 h2{
+        position: absolute;
+        top: 4.3vh;
+        left: 2.5vw;
+        width: 10vw;
+        font-size: 15px;
+        color: white;
+        z-index: 10;
+        opacity: 1;
+    }
+    .box1Image4P{
+        position: absolute;
+        top: 11.7vh;
+        left: 2.5vw;
+        width: 16vw;
+        color: white;
+        font-size: 11px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 100;
+        z-index: 10;
+        opacity: 1;
+    }
+    .box1Image4 button{
+        position: absolute;
+        top: 20.5vh;
+        left: 2.7vw;
+        height: 5vh;
+        width: 6.5vw;
+        font-size: 13px;
+        color: white;
+        background-color: transparent;
+        border: solid 2px white;
+        transform: scale(100%);
+        transition: ease-in-out 0.5s;
+    }
+    .box1Image4 button:hover{
+        transition: ease-in-out 0.5s;
+        box-shadow: inset 140px 0 rgb(219, 135, 9);
+        opacity: 1;
+        transform: scale(110%);
+        background-color: none;
+    }
+    .box2Image4{
+        position: absolute;
+        top:2.2vh;
+        left: 0.9vw;
+        border-left: 5px solid white;
+        border-top: 5px solid white;
+        width: 3.5vw;
+        height: 7.5vh;
+        opacity:1;  
+    }
+    .box3Image4{
+        position: relative;
+        left: 16.3vw;
+        top:20.4vh;
+        height: 7.5vh;
+        width: 3.5vw;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+    }
+    .mainImage5{
+        position: absolute;
+        top:28vh;
+        left:63.8vw;
+        width: 20.8vw;
+        height: 28.5vh;
+        font-size:10px;
+        background-image: url("/assets/mainImage4.png");
+        background-size: 100%;
+        background-repeat: no-repeat; 
+    }
+    .mainImage5:hover .box1Image5 {
+        position:absolute;
+        display:flex;
+        left:0;
+         top:0;
+        width:100%;
+        height:30vh;
+        background-color: rgb(6, 30, 248);
+        opacity: 0.8;
+        transition: ease-in-out 1s;
+        transform:scale(110%);
+        z-index: 10;
+    }
+    .box1Image5{
+        position: absolute;
+        left: 4.5vw;
+        top: 8.5vh;
+        width: 10vw;
+        height:10vh;
+        background-color: rgb(6, 30, 248);
+        transition: ease-in-out 1s;
+        transform: scale(0%);
+        opacity: 0.8;
+    }
+    
+    .box1Image5 h2{
+        position: absolute;
+        top: 4vh;
+        left: 2.5vw;
+        width: 10vw;
+        font-size: 16px;
+        color: white;
+        z-index: 10;
+        opacity: 1;
+    }
+    .box1Image5P{
+        position: absolute;
+        top: 11.5vh;
+        left: 2.5vw;
+        width: 16vw;
+        color: white;
+        font-size: 11px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 100;
+        z-index: 10;
+        opacity: 1;
+    }
+    .box2Image5{
+        position: absolute;
+        top:1.5vh;
+        left: 1vw;
+        border-left: 5px solid white;
+        border-top: 5px solid white;
+        width: 3.5vw;
+        height: 7.5vh;
+        opacity:1;  
+    }
+    .box3Image5{
+        position: relative;
+        left: 16.2vw;
+        top:19.4vh;
+        height: 7.5vh;
+        width: 3.5vw;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+    }
+    .box1Image5 button{
+        position: absolute;
+        top: 18.5vh;
+        left: 2.6vw;
+        height: 5vh;
+        width: 6.5vw;
+        font-size: 13px;
+        color: white;
+        background-color: transparent;
+        border: solid 2px white;
+        transform: scale(100%);
+        transition: ease-in-out 0.5s;
+    }
+    .box1Image5 button:hover{
+        transition: ease-in-out 0.5s;
+        box-shadow: inset 140px 0 rgb(6, 180, 248);
+        opacity: 1;
+        transform: scale(110%);
+        background-color: none;
+    }
+    
     .boxSecondMFigure{
         position: absolute;
         display: flex;
         flex-direction: row-reverse;
         align-items: flex-end;
         top: 296vh;
-        left: 0vw;
+        left: 0.1vw;
         height: 69.7vh;
         width: 99.9%;
     }
@@ -952,7 +1557,7 @@ main{
         position: absolute;
         top: 0;
         left:0%;
-        height: 59.5vh;
+        height: 60.4vh;
         border: 1px solid gray;
     }
     .boxSecondMFigure figcaption{
