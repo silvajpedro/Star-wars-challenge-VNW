@@ -549,7 +549,7 @@ main{
      top:0;
     width:50%;
     height:58vh;
-    background-color: rebeccapurple;
+    background-color: rgb(116, 23, 209);
     opacity: 0.7;
     transition: ease-in-out 1s;
     transform:scale(110%);
@@ -558,7 +558,7 @@ main{
     position: absolute;
     width: 41vw;
     height:57vh;
-    background-color: rebeccapurple;
+    background-color: rgb(116, 23, 209);
     transition: ease-in-out 1s;
     transform: scale(0.1%);
 }
@@ -604,13 +604,13 @@ main{
     background-image: url("/assets/mainImage2.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    border: solid;
+    /* border: solid; */
 }
 .mainImage2:hover .box1Image2 {
     position:absolute;
     display:flex;
-    left:0;
-     top:0;
+    left:0.04vw;
+     top:-1vh;
     width:100%;
     height:30vh;
     background-color: red;
@@ -621,17 +621,19 @@ main{
 }
 .box1Image2{
     position: absolute;
-    width: 1vw;
-    height:1vh;
-    background-color: rebeccapurple;
+    left: 4.5vw;
+    top: 8.5vh;
+    width: 10vw;
+    height:10vh;
+    background-color: red;
     transition: ease-in-out 1s;
-    transform: scale(0.1%);
+    transform: scale(0%);
 }
 
 .mainImage3{
     position: absolute;
     top:0vh;
-    left:20.8vw;
+    left:63.8vw;
     /* border: solid green; */
     width: 20.8vw;
     height: 28.5vh;
@@ -647,28 +649,26 @@ main{
      top:0;
     width:100%;
     height:30vh;
-    background-color: green;
+    background-color: rgb(6, 240, 6);
     opacity: 0.5;
     transition: ease-in-out 1s;
     transform:scale(110%);
     z-index: 10;
 }
+.box1Image3{
+    position: absolute;
+    left: 4.5vw;
+    top: 8.5vh;
+    width: 10vw;
+    height:10vh;
+    background-color: rgb(6, 240, 6);
+    transition: ease-in-out 1s;
+    transform: scale(0%);
+}
 .mainImage4{
     position: absolute;
     top:28vh;
-    left:20.8vw;
-    /* border: solid green; */
-    width: 20.8vw;
-    height: 28.5vh;
-    font-size:10px;
-    background-image: url("/assets/mainImage4.png");
-    background-size: 100%;
-    background-repeat: no-repeat; 
-}
-.mainImage5{
-    position: absolute;
-    top:28vh;
-    left:0;
+    left:43vw;
     /* border: solid green; */
     width: 20.8vw;
     height: 28.5vh;
@@ -677,7 +677,64 @@ main{
     background-size: 100%;
     background-repeat: no-repeat; 
 }
-
+.mainImage4:hover .box1Image4 {
+    position:absolute;
+    display:flex;
+    left:0;
+     top:0;
+    width:100%;
+    height:30vh;
+    background-color: rgb(244, 248, 6);
+    opacity: 0.5;
+    transition: ease-in-out 1s;
+    transform:scale(110%);
+    z-index: 10;
+}
+.box1Image4{
+    position: absolute;
+    left: 4.5vw;
+    top: 8.5vh;
+    width: 10vw;
+    height:10vh;
+    background-color: rgb(244, 248, 6);
+    transition: ease-in-out 1s;
+    transform: scale(0%);
+}
+.mainImage5{
+    position: absolute;
+    top:28vh;
+    left:63.8vw;
+    /* border: solid green; */
+    width: 20.8vw;
+    height: 28.5vh;
+    font-size:10px;
+    background-image: url("/assets/mainImage4.png");
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+.mainImage5:hover .box1Image5 {
+    position:absolute;
+    display:flex;
+    left:0;
+     top:0;
+    width:100%;
+    height:30vh;
+    background-color: rgb(6, 30, 248);
+    opacity: 0.5;
+    transition: ease-in-out 1s;
+    transform:scale(110%);
+    z-index: 10;
+}
+.box1Image5{
+    position: absolute;
+    left: 4.5vw;
+    top: 8.5vh;
+    width: 10vw;
+    height:10vh;
+    background-color: rgb(6, 30, 248);
+    transition: ease-in-out 1s;
+    transform: scale(0%);
+}
 
 
 
