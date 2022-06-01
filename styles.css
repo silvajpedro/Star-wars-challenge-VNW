@@ -1862,11 +1862,11 @@ footer {
         cursor: pointer;
         transition: ease-in-out 1s;
     }
-    /* .footerButton:hover ~ .lineButtonF:hover{
+    .footerButton:hover ~ .lineButtonF:hover{
         font-weight: 900;
         box-shadow: inset red 20px 0px;
         cursor: pointer;
-    } */
+    }
     /* ñ funcionou só Deus sabe o pq */
     .footerButton:hover ~ .firstP{
         font-weight: 900;
