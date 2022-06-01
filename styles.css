@@ -17,7 +17,7 @@
     background-size: 101%;
     background-repeat: no-repeat;
     height: 590px;
-    background-image: url("../assets/backgroundheader.png");
+    background-image: url("./assets/backgroundheader.png");
 }
 .wordsHeader {
     display: flex;
