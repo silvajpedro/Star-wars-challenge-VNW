@@ -40,7 +40,7 @@
     height: 82px;
 }
 .kyloRen {
-    background-image: url("../assets/darkwarrior.png");
+    background-image: url("./assets/darkwarrior.png");
     background-repeat: no-repeat;
     background-size: 101%;
     position: absolute;
