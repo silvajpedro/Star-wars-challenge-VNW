@@ -1734,10 +1734,7 @@ footer {
     transition: ease-in-out 1s;
 }
 .footerButton:hover ~ .lineButtonF{
-    font-weight: 900;
-    box-shadow: inset red 220px 0;
-    cursor: pointer;
-    transition: ease-in-out 1s;
+   background-color: red;
 }
 .footerButton:hover ~ .firstP{
     font-weight: 900;
@@ -1852,25 +1849,9 @@ footer {
     .lineButtonF {
         position: absolute;
         top: 29vh;
-        border: solid;
         width: 25%;
         height: 1.5%;
         transition: ease-in-out 1s;
-    }
-    .footerButton:hover{
-        box-shadow: inset red 220px 0;
-        cursor: pointer;
-        transition: ease-in-out 1s;
-    }
-    .footerButton:hover ~ .lineButtonF:hover{
-        font-weight: 900;
-        box-shadow: inset red 20px 0px;
-        cursor: pointer;
-    }
-    /* ñ funcionou só Deus sabe o pq */
-    .footerButton:hover ~ .firstP{
-        font-weight: 900;
-        transform: scale(125%);
     }
     .secondP2 {
         display: flex;
